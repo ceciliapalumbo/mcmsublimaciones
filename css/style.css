@@ -111,13 +111,16 @@ nav ul li{
 }
 
 /* LOGO DE WATSSAPP */
+.varWatt{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    right: 1%;
+}
 .varWatt img {
-    display: flex;
     width: 180px;
     height: 180px;
-    position: fixed;
-    bottom: 7%;
-    right: 1%;
+    
 }
 
 /* 
@@ -439,11 +442,9 @@ background-color: rgb(136, 208, 241);
                 border-width: 2px;
                 } 
         /* LOGO DE WATSSAPP */
-        .varWatt img {
+            .varWatt img {
                         width: 90px;
                         height: 90px;
-                        bottom: 8%;
-                        right: 0.1%;
             }
         /*  FOOTER **************/
         /* TITULO REDES SOCIALES */
@@ -517,6 +518,8 @@ background-color: rgb(136, 208, 241);
     }
         .sec3-mapa{
                         border-width: 2px;
+                        margin-bottom: 20%;
+                        margin-top: 10%;
             }
     /* *******************************************************PAGINA PRODUCTOS*/
     .sec1-productos{
@@ -598,7 +601,6 @@ background-color: rgb(136, 208, 241);
     
         /* PAGINA INICIO SECCION-3 */
         .seccion-3 { 
-                    height: auto;
                     flex-wrap: wrap;
                     justify-content: center;
                     align-content: baseline;
@@ -616,12 +618,10 @@ background-color: rgb(136, 208, 241);
                     border-width: 2px;
         } 
         /* LOGO DE WATSSAPP */
-        .varWatt img {
+            .varWatt img {
                     width: 40px;
                     height: 40px;
-                    bottom: 35px;
-                    right: 5px;
-        }
+                    }
         /*  *********************************************FOOTER */
                /* TITULO REDES SOCIALES */
         h3{
@@ -649,7 +649,6 @@ background-color: rgb(136, 208, 241);
         } 
         /* sector 2 */
         .sec2-quienessomos{
-                            height: auto;
                             flex-direction: column;
                             align-items: center;
                             justify-content: center;
