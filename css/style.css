@@ -1,4 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Comic+Neue&family=Days+One&family=Lilita+One&family=Nunito+Sans:wght@300&family=Unbounded:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Days+One&family=Lilita+One&family=Unbounded:wght@400;500&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+/* TIPOGRAFIA 
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Unbounded', cursive;
+*/
+/* BODY */
+.body {
+  width: 100%;
+  height: auto;
+  background-image: url(../assets/foto/fondo.jpg);
+  background-repeat: repeat-x;
+  background-size: cover;
+  flex-wrap: wrap; }
+
+/* PAGINA INICIO BARRA DE NAVEGACION */
+.header {
+  width: 100%;
+  height: auto;
+  background-color: #0018EF; }
+
+.dropdown-menu {
+  background-color: #0018EF; }
+
+.imgLogo {
+  width: 100px;
+  height: 100px; }
+
+.navbar-nav a {
+  font-size: 22px;
+  color: white; }
+
+/* PAG INICIO SECCION-1 */
+.seccion-1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%; }
+
+/* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
+.titulo-regalos h1 {
+  color: #50004C;
+  font-style: italic;
+  font-weight: inherit;
+  font-size: 40px;
+  padding: 20px; }
+
+/* PAGINA INICIO SECCION-2 */
+.seccion-2 {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.sec2-presentacion img {
+  max-width: 100%;
+  height: auto; }
+
+/* PAGINA INICIO SECCION-3 */
+.seccion-3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  padding-top: 30px; }
+
+.novedades {
+  font-family: 'Nunito Sans', sans-serif;
+  color: black;
+  font-size: 40px;
+  font-weight: bolder; }
+
+/* CIRCULO TAZA - REMERA - ALMOHADON */
+.seccion-3 img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: cornflowerblue;
+  border-width: 3px; }
+
+.seccion-3 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Nunito Sans', sans-serif;
+  color: black;
+  font-size: 20px;
+  font-weight: bolder; }
+
+/* LOGO DE WATSSAPP */
+.varWatt {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  right: 1%; }
+
+.varWatt img {
+  width: 180px;
+  height: 180px; }
+
+.grid-footer {
+  width: 100%;
+  height: auto;
+  background-color: #EDBFB5;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: auto; }
+
+.grid-instagram {
+  grid-column: 1; }
+
+.grid-redes {
+  grid-column: 2; }
+
+.grid-face {
+  grid-column: 3; }
+
+/* LOGO DE INSTAGRAM */
+.varInstagram {
+  width: 60px;
+  height: 60px; }
+
+/* LOGO DE FACEBOOK */
+.varFacebook {
+  width: 60px;
+  height: 60px; }
+
+.redes {
+  color: #50004C;
+  font-family: 'Unbounded', cursive;
+  font-size: 23px;
+  padding: 20px;
+  padding-right: 20px; }

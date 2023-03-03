@@ -1,44 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Comic+Neue&family=Days+One&family=Lilita+One&family=Nunito+Sans:wght@300&family=Unbounded:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Days+One&family=Lilita+One&family=Unbounded:wght@400;500&display=swap');
-/* TIPOGRAFIA 
-font-family: 'Nunito Sans', sans-serif;
-font-family: 'Unbounded', cursive;
-*/
-*{  margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-/* BODY */
-body {  
-    width: 100%;
-    height: auto;
-    background-image: url(../assets/foto/fondo.jpg);
-    background-repeat: repeat-x;
-    background-size: cover;
-    flex-wrap: wrap;
-} 
-/* PAGINA INICIO BARRA DE NAVEGACION */
-header{
-    width: 100%;
-    height: auto;
-    background-color: #0018EF;
-}
-.dropdown-menu{
-    background-color: #0018EF;
-}
-.imgLogo{
-    width: 100px;
-    height: 100px;
-}
-nav ul li{   
-    list-style: none;
-    float: left;
-}
-.navbar-nav a{   
-    font-size: 22px;
-    color: white;
-} 
 /* PAG INICIO SECCION-1 */
 .seccion-1{
     width: 100%;
@@ -121,53 +81,6 @@ nav ul li{
     width: 180px;
     height: 180px;
     
-}
-
-/* 
-.
-.
-.*********************************************************PAGINA DE INICIO FOOTER *******************************************************************************************************
-.
-.
-*/
-footer{
-    width: 100%;
-    height: auto;
-    background-color:#EDBFB5;
-    display: grid;
-    grid-template-columns: repeat(3,auto);
-    grid-template-rows: auto;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-}
-.grid-instagram{
-    grid-column: 1;
-}
-.grid-redes{
-    grid-column: 2;
-}
-.grid-face{
-    grid-column: 3;
-}  
-/* TITULO REDES SOCIALES */
-
-h3 {
-    font-family: 'Unbounded', cursive;
-    color: #50004C;
-    font-size: 23px;
-    padding: 20px;
-    padding-right: 20px;
-    }
-    /* LOGO DE INSTAGRAM */
-.varInstagram {
-    width: 60PX;
-    height: 60PX; 
-}
-/* LOGO DE FACEBOOK */
-.varFacebook {
-    width: 60PX;
-    height: 60PX; 
 }
 
 /* 

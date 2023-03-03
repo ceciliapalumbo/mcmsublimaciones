@@ -1,0 +1,50 @@
+/* PAG INICIO SECCION-1 */
+.seccion-1{
+    @include medidas;
+    @include flex;
+    gap: 5%;
+}
+/* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
+.titulo-regalos h1{
+     color:$color-texto-principal;
+    @include titulo;
+} 
+/* PAGINA INICIO SECCION-2 */
+.seccion-2 { 
+    @include medidas-max;
+    @include flex-wrap;
+}
+.sec2-presentacion img{
+    @include medidas-max;
+}
+/* PAGINA INICIO SECCION-3 */
+.seccion-3 { 
+    @include medidas;
+    @include flex-wrap;
+    gap: 100px;
+    padding-top: 30px;
+}
+.novedades{
+    @include novedades;
+}
+/* CIRCULO TAZA - REMERA - ALMOHADON */
+.seccion-3 img{
+    @include circulos;
+
+} 
+.seccion-3 p{
+    @include flex;
+    @include parrafos;
+}
+/* LOGO DE WATSSAPP */
+.varWatt{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    right: 1%;
+}
+.varWatt img {
+    width: 180px;
+    height: 180px;
+    
+}

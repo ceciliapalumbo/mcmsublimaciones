@@ -1,0 +1,65 @@
+@mixin medidas{
+    width: 100%;
+    height: auto;
+}
+@mixin medidas-max{
+    max-width: 100%;
+    height: auto; 
+}
+@mixin medidas-60{
+    width: 60px;
+    height: 60px; 
+}
+@mixin flex-center{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+@mixin flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin flex-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@mixin grid ($col,$row){
+    display: grid;
+    grid-template-columns: $col;
+    grid-template-rows: $row;
+}
+@mixin redes{
+    font-family: 'Unbounded', cursive;
+    font-size: 23px;
+    padding: 20px;
+    padding-right: 20px;
+}
+@mixin titulo{
+    font-style: italic;
+    font-weight: inherit;
+    font-size: 40px; 
+    padding: 20px;
+}
+@mixin novedades{
+    font-family: 'Nunito Sans', sans-serif;
+    color: black;
+    font-size: 40px;  
+    font-weight: bolder;
+}
+@mixin parrafos{
+    font-family: 'Nunito Sans', sans-serif;
+    color: black;
+    font-size: 20px;   
+    font-weight: bolder;
+}
+@mixin circulos{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-width: 3px;
+}

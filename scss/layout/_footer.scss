@@ -1,0 +1,27 @@
+.grid-footer{
+    @include medidas;
+    background-color: $background-footer;
+    @include flex-center;
+    @include grid (repeat(3,auto),auto);
+}
+.grid-instagram{
+    grid-column: 1;
+}
+.grid-redes{
+    grid-column: 2;
+}
+.grid-face{
+    grid-column: 3;
+}  
+    /* LOGO DE INSTAGRAM */
+    .varInstagram {
+        @include medidas-60;
+    }
+    /* LOGO DE FACEBOOK */
+    .varFacebook {
+        @include medidas-60;
+    }
+    .redes{
+        color: $color-texto-principal;
+        @include redes;
+    }

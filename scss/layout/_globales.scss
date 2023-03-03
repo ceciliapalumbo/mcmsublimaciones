@@ -1,0 +1,9 @@
+
+/* BODY */
+.body {  
+    @include medidas;
+    background-image: url(../assets/foto/fondo.jpg);
+    background-repeat: repeat-x;
+    background-size: cover;
+    flex-wrap: wrap;
+} 

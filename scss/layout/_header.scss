@@ -1,0 +1,16 @@
+/* PAGINA INICIO BARRA DE NAVEGACION */
+.header{
+    @include medidas;
+    background-color: $background-header;
+}
+.dropdown-menu{
+    background-color:$background-header;
+}
+.imgLogo{
+    width: 100px;
+    height: 100px;
+}
+.navbar-nav a{   
+    font-size: 22px;
+    color: white;
+} 

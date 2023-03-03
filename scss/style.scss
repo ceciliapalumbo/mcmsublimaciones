@@ -1,4 +1,20 @@
-*{  margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./utilities/extend";
+@import "./base/reset";
+@import "./base/typo";
+@import "./layout/globales";
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/main-quienes-somos";
+@import "./layout/main-contacto";
+@import "./layout/main-productos";
+@import "./layout/main-fechas-especiales";
+@import "./layout/footer";
+@import "./components/buttons";
+@import "./utilities/media-768";
+@import "./utilities/media-320";
+
+
+
+
