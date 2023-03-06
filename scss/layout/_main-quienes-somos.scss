@@ -1,0 +1,34 @@
+/***** sector 1 ******/
+.sec1-quienessomos{
+    @include medidas;
+    @include flex-left;
+    gap: 492px;
+    } 
+/***** sector 2 ******/
+.sec2-quienessomos{
+    @include medidas;
+    @include flex-wrap;
+    gap: 10%;
+}
+.textoLogo{
+    @include novedades;
+    color:$color-texto-principal;
+ 
+}
+.foto-quienessomos{
+    @include medidas;
+}
+/******* sector 3****** */
+.sec3-quienessomos{
+    @extend .sec2-quienessomos;
+    gap: 0;
+    padding: 3%;
+}
+.sec3-quienessomos p{
+    @include medidas;
+    @include titulos-secundarios;
+}
+.sec3-quienessomos p::first-letter{
+    color:$color-texto-principal;
+    font-size: 40px;
+}

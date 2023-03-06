@@ -1,0 +1,161 @@
+@media (max-width: 320px){
+    .navbar-nav a{ 
+            font-size: 15px;
+    } 
+    .imgLogo{
+        width: 80px;
+        height: 80px;
+    }
+    /* PAGINA INICIO SECCION 1*/
+    .seccion-1{
+                height: auto;
+                gap: 3%;
+    }
+    /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
+    .titulo-regalos h1{
+                    font-size: 17px; 
+                    padding-left: 20px;
+    } 
+    .seccion-1 .logo {
+                        width: 70px;
+                        height: 70px;
+    }
+    /* PAGINA INICIO SECCION-3 */
+    .seccion-3 { 
+                justify-content: center;
+                align-content: baseline;
+                align-items: center;
+    }
+    .seccion-3 h2{
+                            font-size: 13px;   
+                            padding: 10px;
+    }
+    /* CIRCULO TAZA - REMERA - ALMOHADON */
+    .seccion-3 img{
+                height: 200px;
+                width: 200px;
+    } 
+    /* LOGO DE WATSSAPP */
+
+        .varWatt img {
+                width: 80px;
+                }
+    /*  *********************************************FOOTER */
+           /* TITULO REDES SOCIALES */
+    h3{
+        padding: 0;
+        font-size: 15px;
+    }
+    /* LOGO DE INSTAGRAM */
+    .varInstagram {
+                    width: 30px;
+                    height: 30px; 
+    }
+    /* LOGO DE FACEBOOK */
+    .varFacebook {
+                    width: 30px;
+                    height: 30px; 
+    }  
+    /************************************************************************ PAGINA QUINES SOMOS*/
+            .sec1-quienessomos h2{
+                        align-items: end;
+                        font-size: 18px;
+    }
+    .varLogo{
+            width: 70px;
+            height: 70px;
+    } 
+    /* sector 2 */
+    .sec2-quienessomos{
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 5%;
+    }
+    .textoLogo{
+                font-size: 18px;
+    }
+   /* sector 3 *******************************/
+        .sec3-quienessomos p{
+                        font-size: 12px;
+                        line-height: 17px;  
+    }
+    .sec3-quienessomos p::first-letter{
+        font-size: 12px;
+}
+/* *********************************PAGINA INICIO CONTACTO*/
+.sec1-contacto h2{
+    font-size: 18px;
+}    
+/* sector 2 */
+.sec2-contacto{
+    padding-left: 30px;
+}
+.sec2-contacto p{
+    font-size: 10px;
+}
+.varContactowatt{
+    width: 90px;
+    height: 90px;
+}
+/* sector 3 */
+.sec3-contacto{
+    gap: 3px;
+}
+.varAddress{
+    font-size: 15px;
+}
+.sec3-mapa{
+                border-width: 1px;
+        }
+/************************* PAGINA PRODUCTOS*/
+.sec1-productos{
+    justify-content: center;
+    padding: 0;
+    gap: 0;
+}   
+.sec1-productos h2{
+    font-size: 18px;
+    margin: 0;
+}
+/* seccion2 */
+.sec2-productos{
+gap: 10px;
+padding: 6px;
+}
+.sec2-productos p{
+font-size: 10px;
+}
+.sec2-productos img{
+        width: 150px;
+        height: 160px;
+        border: solid 2px rgb(245, 178, 223);
+}
+/************************ PAGINA FECHAS ESPECIALES*/
+.sec1-fecescpeciales{
+justify-content: center;
+padding: 0;
+gap: 0;
+}   
+.sec1-fecescpeciales h2{
+font-size: 18px;
+margin: 0;
+}
+/* seccion2 */
+.sec2-fecescpeciales{
+padding: 6px;
+gap: 10px;
+}
+.sec2-fecescpeciales h2{
+    margin-left: 8px;
+    font-size: 20px;
+}
+.sec2-fecescpeciales p{
+font-size: 10px;
+}
+.sec2-fecescpeciales img{
+width: 150px;
+height: 160px;
+border: solid 2px rgb(64, 218, 230);
+}
+} 

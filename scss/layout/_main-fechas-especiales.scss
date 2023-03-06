@@ -1,0 +1,22 @@
+.sec1-fecescpeciales{
+    @include medidas;
+    @include flex-left;
+    gap: 467px;
+}
+/* seccion2 */
+.sec2-fecescpeciales{
+    @include medidas;
+    @include flex-cont;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+}
+.sec2-fecescpeciales p{
+    @include parrafos;
+    font-size: 15px; 
+    @include flex-cont;
+}
+.sec2-fecescpeciales img{
+    @include productos;
+    border: solid 5px rgb(64, 218, 230);
+}

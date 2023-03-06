@@ -7,8 +7,7 @@
     background-color:$background-header;
 }
 .imgLogo{
-    width: 100px;
-    height: 100px;
+    @include medidas-100;
 }
 .navbar-nav a{   
     font-size: 22px;

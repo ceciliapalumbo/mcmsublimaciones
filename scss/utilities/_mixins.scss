@@ -10,15 +10,29 @@
     width: 60px;
     height: 60px; 
 }
+@mixin medidas-100{
+    width: 100px;
+    height: 100px; 
+}
 @mixin flex-center{
     align-items: center;
     justify-content: center;
     align-content: center;
 }
+@mixin flex-cont{
+    display: flex;
+    justify-content: center;
+    } 
 @mixin flex{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@mixin flex-left{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 200px;
 }
 @mixin flex-wrap{
     display: flex;
@@ -32,7 +46,7 @@
     grid-template-rows: $row;
 }
 @mixin redes{
-    font-family: 'Unbounded', cursive;
+    font-family:$tipografia-principal;
     font-size: 23px;
     padding: 20px;
     padding-right: 20px;
@@ -44,16 +58,24 @@
     padding: 20px;
 }
 @mixin novedades{
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: $tipografia-secundaria;
     color: black;
     font-size: 40px;  
     font-weight: bolder;
 }
 @mixin parrafos{
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: $tipografia-secundaria;
     color: black;
     font-size: 20px;   
     font-weight: bolder;
+}
+@mixin titulos-secundarios{
+    font-family:$tipografia-secundaria;
+    font-weight: bolder;
+    color: black;
+    font-size: 36px;
+    line-height: 50px; 
+    flex-wrap: wrap; 
 }
 @mixin circulos{
     height: 400px;
@@ -62,4 +84,9 @@
     border-style: solid;
     border-color: cornflowerblue;
     border-width: 3px;
+}
+@mixin productos{
+    display: flex;
+    width: 280px;
+    height: 290px;
 }

@@ -6,7 +6,7 @@
 }
 /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
 .titulo-regalos h1{
-     color:$color-texto-principal;
+    color:$color-texto-principal;
     @include titulo;
 } 
 /* PAGINA INICIO SECCION-2 */
@@ -36,15 +36,6 @@
     @include flex;
     @include parrafos;
 }
-/* LOGO DE WATSSAPP */
-.varWatt{
-    width: 100%;
-    height: auto;
-    position: fixed;
-    right: 1%;
-}
-.varWatt img {
-    width: 180px;
-    height: 180px;
-    
+.carousel-item{
+    transition: none;
 }

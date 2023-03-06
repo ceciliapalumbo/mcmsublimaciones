@@ -1,0 +1,39 @@
+/* sector 1 */
+.sec1-contacto{
+    @include medidas;
+    @include flex-left;
+    gap: 555px;
+    flex-wrap: wrap;
+    }
+/* sector 2 */
+.sec2-contacto{
+    @include medidas;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    flex-wrap: wrap;
+}
+.sec2-contacto p{
+    @include parrafos;
+    } 
+.varContactowatt{
+    width: 150px;
+    height: 150px;
+}
+/* sector 3 */
+.sec3-contacto{
+    @include medidas-max;
+    @include flex-wrap;
+    flex-direction: column;
+    gap: 10px;
+    padding: 3%;
+}
+.varAddress{
+    @include parrafos;  
+}
+
+.sec3-mapa{
+    @include medidas-max;
+    border-width: 2px;
+    border: solid rgb(10, 82, 31);
+}
