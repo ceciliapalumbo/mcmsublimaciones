@@ -427,13 +427,13 @@ font-family: 'Unbounded', cursive;
     height: 130px; }
   /* sector 3 */
   .sec3-contacto {
-    gap: 5px; }
+    gap: 20px; }
   .varAddress {
     font-size: 20px; }
   .sec3-mapa {
     border-width: 2px;
-    margin-bottom: 20%;
-    margin-top: 10%; }
+    margin-bottom: 25%;
+    margin-top: 15%; }
   /* *******************************************************PAGINA PRODUCTOS*/
   .sec1-productos {
     justify-content: center;
