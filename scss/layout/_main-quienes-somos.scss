@@ -3,12 +3,13 @@
     @include medidas;
     @include flex-left;
     gap: 492px;
+    @include margin;
     } 
 /***** sector 2 ******/
 .sec2-quienessomos{
     @include medidas;
     @include flex-wrap;
-    gap: 10%;
+    gap: 6%;
 }
 .textoLogo{
     @include novedades;
@@ -17,12 +18,13 @@
 }
 .foto-quienessomos{
     @include medidas;
+    margin: 0;
 }
 /******* sector 3****** */
 .sec3-quienessomos{
     @extend .sec2-quienessomos;
     gap: 0;
-    padding: 3%;
+    padding: 5%;
 }
 .sec3-quienessomos p{
     @include medidas;

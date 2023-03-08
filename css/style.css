@@ -60,7 +60,7 @@ font-family: 'Unbounded', cursive;
   color: #50004C;
   font-style: italic;
   font-weight: inherit;
-  font-size: 40px;
+  font-size: 45px;
   padding: 20px; }
 
 /* PAGINA INICIO SECCION-2 */
@@ -122,7 +122,9 @@ font-family: 'Unbounded', cursive;
   align-items: center;
   justify-content: left;
   padding-left: 200px;
-  gap: 492px; }
+  gap: 492px;
+  margin-top: 1%;
+  margin-bottom: 5%; }
 
 /***** sector 2 ******/
 .sec2-quienessomos, .sec3-quienessomos {
@@ -132,7 +134,7 @@ font-family: 'Unbounded', cursive;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 10%; }
+  gap: 6%; }
 
 .textoLogo {
   font-family: "Nunito Sans", sans-serif;
@@ -143,12 +145,13 @@ font-family: 'Unbounded', cursive;
 
 .foto-quienessomos {
   width: 100%;
-  height: auto; }
+  height: auto;
+  margin: 0; }
 
 /******* sector 3****** */
 .sec3-quienessomos {
   gap: 0;
-  padding: 3%; }
+  padding: 5%; }
 
 .sec3-quienessomos p {
   width: 100%;
@@ -173,7 +176,9 @@ font-family: 'Unbounded', cursive;
   justify-content: left;
   padding-left: 200px;
   gap: 555px;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-top: 1%;
+  margin-bottom: 5%; }
 
 /* sector 2 */
 .sec2-contacto {
@@ -182,7 +187,8 @@ font-family: 'Unbounded', cursive;
   display: flex;
   align-items: center;
   padding-left: 150px;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-top: 5%; }
 
 .sec2-contacto p {
   font-family: "Nunito Sans", sans-serif;
@@ -210,20 +216,24 @@ font-family: 'Unbounded', cursive;
   font-family: "Nunito Sans", sans-serif;
   color: black;
   font-size: 20px;
-  font-weight: bolder; }
+  font-weight: bolder;
+  margin-bottom: 8%; }
 
 .sec3-mapa {
   max-width: 100%;
   height: auto;
   border-width: 2px;
-  border: solid #0a521f; }
+  border: solid #0a521f;
+  margin-bottom: 5%; }
 
 .sec1-productos {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: left;
-  align-items: center; }
+  align-items: center;
+  margin-top: 1%;
+  margin-bottom: 5%; }
 
 .sec1-productos h2 {
   margin-left: 200px; }
@@ -236,7 +246,7 @@ font-family: 'Unbounded', cursive;
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
-  padding: 20px; }
+  padding-bottom: 5%; }
 
 .card {
   padding: 0;
@@ -282,6 +292,8 @@ font-family: 'Unbounded', cursive;
   align-items: center;
   justify-content: left;
   padding-left: 200px;
+  margin-top: 1%;
+  margin-bottom: 5%;
   gap: 467px; }
 
 /* seccion2 */
@@ -292,7 +304,7 @@ font-family: 'Unbounded', cursive;
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
-  padding: 20px; }
+  padding-bottom: 5%; }
 
 .sec2-fecescpeciales p {
   font-family: "Nunito Sans", sans-serif;
@@ -345,6 +357,20 @@ font-family: 'Unbounded', cursive;
   font-size: 23px;
   padding: 20px;
   padding-right: 20px; }
+
+@media (max-width: 1024px) {
+  /* *******************************PAGINA INICIO*****/
+  /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
+  .titulo-regalos h1 {
+    font-size: 40px; }
+  /* *******************************PAGINA INICIO QUINES SOMOS*/
+  /* sector 1 */
+  .textoLogo {
+    font-size: 37px; }
+  /* sector 3 */
+  .sec3-quienessomos p {
+    font-size: 30px;
+    line-height: 30px; } }
 
 @media (max-width: 768px) {
   .navbar-nav a {

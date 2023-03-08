@@ -14,6 +14,10 @@
     width: 100px;
     height: 100px; 
 }
+@mixin margin{
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
 @mixin flex-center{
     align-items: center;
     justify-content: center;
@@ -54,7 +58,7 @@
 @mixin titulo{
     font-style: italic;
     font-weight: inherit;
-    font-size: 40px; 
+    font-size: 45px; 
     padding: 20px;
 }
 @mixin novedades{

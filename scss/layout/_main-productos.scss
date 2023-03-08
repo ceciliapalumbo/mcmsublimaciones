@@ -3,6 +3,7 @@
     display: flex;
     justify-content: left;
     align-items: center;
+    @include margin;
 }
 .sec1-productos h2{
     margin-left: 200px;
@@ -13,7 +14,7 @@
     @include flex-cont;
     flex-wrap: wrap;
     gap: 30px;
-    padding: 20px;
+    padding-bottom: 5%;
 }
 .card{
     padding:0;

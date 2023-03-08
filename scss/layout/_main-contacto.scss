@@ -4,6 +4,7 @@
     @include flex-left;
     gap: 555px;
     flex-wrap: wrap;
+    @include margin;
     }
 /* sector 2 */
 .sec2-contacto{
@@ -12,6 +13,7 @@
     align-items: center;
     padding-left: 150px;
     flex-wrap: wrap;
+    margin-top: 5%;
 }
 .sec2-contacto p{
     @include parrafos;
@@ -29,11 +31,13 @@
     padding: 3%;
 }
 .varAddress{
-    @include parrafos;  
+    @include parrafos; 
+    margin-bottom: 8%;
 }
 
 .sec3-mapa{
     @include medidas-max;
     border-width: 2px;
     border: solid rgb(10, 82, 31);
+    margin-bottom: 5%;
 }

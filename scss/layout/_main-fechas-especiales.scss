@@ -1,7 +1,9 @@
 .sec1-fecescpeciales{
     @include medidas;
     @include flex-left;
+    @include margin;
     gap: 467px;
+    
 }
 /* seccion2 */
 .sec2-fecescpeciales{
@@ -9,7 +11,7 @@
     @include flex-cont;
     flex-wrap: wrap;
     gap: 30px;
-    padding: 20px;
+    padding-bottom: 5%;
 }
 .sec2-fecescpeciales p{
     @include parrafos;
