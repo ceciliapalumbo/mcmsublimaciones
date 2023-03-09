@@ -23,6 +23,7 @@
     @include flex-wrap;
     gap: 100px;
     padding-top: 30px;
+    padding-bottom: 8%;
 }
 .novedades{
     @include novedades;

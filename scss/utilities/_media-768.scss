@@ -12,14 +12,14 @@
     }
 /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
     .titulo-regalos h1{
-                    font-size: 25px;  
+                    font-size: 35px;  
     } 
     .seccion-1 .logo {
                 @include medidas-100;
     }
 /* PAGINA INICIO SECCION-3 */
-            .seccion-3 h2{
-                    font-size: 20px;
+            .novedades{
+                    font-size: 30px;
                     padding: 50px;
     }
     .seccion-3 { 
@@ -32,7 +32,6 @@
         width: 300px;
         border-width: 2px;
         } 
-
 /* LOGO DE WATSSAPP */
     .varWatt img {
                 width: 100px;
@@ -59,6 +58,9 @@
         padding: 0;
         gap: 0;
     } 
+    .textoLogo{
+        font-size: 34px; 
+    }
     .varLogo{
             @include medidas-100;
     } 
@@ -76,7 +78,7 @@
 /* sector 3 */
     .sec3-quienessomos p{
                         font-size: 23px;
-                        line-height: 23px;  
+                        line-height: 30px;  
     }
 /* *****************************************************PAGINA INICIO CONTACTO*/
 .sec1-contacto{
@@ -107,8 +109,8 @@ font-size: 20px;
 }
 .sec3-mapa{
                 border-width: 2px;
-                margin-bottom: 25%;
-                margin-top: 15%;
+                margin-bottom: 15%;
+                margin-top: 5%;
     }
 /* *******************************************************PAGINA PRODUCTOS*/
 .sec1-productos{
