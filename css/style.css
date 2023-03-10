@@ -425,7 +425,7 @@ font-family: 'Unbounded', cursive;
     width: 100px;
     height: 100px; }
   .sec1-quienessomos h2 {
-    font-size: 20px; }
+    font-size: 25px; }
   /* sector 2 */
   .sec2-quienessomos, .sec3-quienessomos {
     height: auto;
@@ -443,7 +443,7 @@ font-family: 'Unbounded', cursive;
     padding: 0;
     gap: 0; }
   .sec1-contacto h2 {
-    font-size: 30px; }
+    font-size: 25px; }
   /* sector 2 */
   .sec2-contacto {
     padding-left: 70px; }
@@ -467,7 +467,7 @@ font-family: 'Unbounded', cursive;
     padding: 0;
     gap: 0; }
   .sec1-productos h2 {
-    font-size: 30px;
+    font-size: 25px;
     margin: 0; }
   /* seccion2 */
   .sec2-productos {
@@ -485,7 +485,7 @@ font-family: 'Unbounded', cursive;
     padding: 0;
     gap: 0; }
   .sec1-fecescpeciales h2 {
-    font-size: 30px;
+    font-size: 25px;
     margin: 0; }
   /* seccion2 */
   .sec2-fecescpeciales {
@@ -568,7 +568,7 @@ font-family: 'Unbounded', cursive;
   /************************************************************************ PAGINA QUINES SOMOS*/
   .sec1-quienessomos h2 {
     align-items: end;
-    font-size: 25px; }
+    font-size: 20px; }
   .varLogo {
     width: 70px;
     height: 70px; }
@@ -588,7 +588,7 @@ font-family: 'Unbounded', cursive;
     font-size: 25px; }
   /* *********************************PAGINA INICIO CONTACTO*/
   .sec1-contacto h2 {
-    font-size: 25px; }
+    font-size: 20px; }
   /* sector 2 */
   .sec2-contacto {
     padding-left: 30px; }
@@ -610,7 +610,7 @@ font-family: 'Unbounded', cursive;
     padding: 0;
     gap: 0; }
   .sec1-productos h2 {
-    font-size: 25px;
+    font-size: 20px;
     margin: 0; }
   /* seccion2 */
   .sec2-productos {
@@ -629,7 +629,7 @@ font-family: 'Unbounded', cursive;
     padding: 0;
     gap: 0; }
   .sec1-fecescpeciales h2 {
-    font-size: 25px;
+    font-size: 20px;
     margin: 0; }
   /* seccion2 */
   .sec2-fecescpeciales {
