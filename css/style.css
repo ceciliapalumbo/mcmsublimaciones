@@ -365,7 +365,7 @@ font-family: 'Unbounded', cursive;
   /* *******************************PAGINA INICIO*****/
   /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
   .titulo-regalos h1 {
-    font-size: 40px; }
+    font-size: 45px; }
   .novedades {
     font-size: 35px; }
   .seccion-3 p {
@@ -393,7 +393,7 @@ font-family: 'Unbounded', cursive;
     gap: 4%; }
   /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
   .titulo-regalos h1 {
-    font-size: 35px; }
+    font-size: 40px; }
   .seccion-1 .logo {
     width: 100px;
     height: 100px; }
@@ -515,11 +515,12 @@ font-family: 'Unbounded', cursive;
     font-size: 17px; }
   /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
   .titulo-regalos h1 {
-    font-size: 30px;
+    font-size: 35px;
     margin-left: 15%; }
   /* PAGINA INICIO SECCION-3 */
   .novedades {
-    padding: 20px; }
+    font-size: 27px;
+    padding: 10px; }
   /* PAGINA QUIENES SOMOS SECCION-3 */
   .sec3-quienessomos p {
     font-size: 19px;
@@ -542,14 +543,14 @@ font-family: 'Unbounded', cursive;
     gap: 3%; }
   /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
   .titulo-regalos h1 {
-    font-size: 25px;
+    font-size: 30px;
     padding-left: 20px; }
   .seccion-1 .logo {
     width: 70px;
     height: 70px; }
   /* PAGINA INICIO SECCION-3 */
   .novedades {
-    font-size: 25px;
+    font-size: 23px;
     padding: 10px; }
   .seccion-3 p {
     font-size: 18px; }
