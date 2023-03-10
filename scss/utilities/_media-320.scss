@@ -13,7 +13,7 @@
     }
     /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
     .titulo-regalos h1{
-                    font-size: 17px; 
+                    font-size: 25px; 
                     padding-left: 20px;
     } 
     .seccion-1 .logo {
@@ -21,14 +21,17 @@
                         height: 70px;
     }
     /* PAGINA INICIO SECCION-3 */
+    .novedades{
+        font-size: 25px;
+        padding: 10px;
+}
+.seccion-3 p{
+font-size: 18px;  
+}
     .seccion-3 { 
                 justify-content: center;
                 align-content: baseline;
                 align-items: center;
-    }
-    .seccion-3 h2{
-                            font-size: 13px;   
-                            padding: 10px;
     }
     /* CIRCULO TAZA - REMERA - ALMOHADON */
     .seccion-3 img{
@@ -40,26 +43,10 @@
         .varWatt img {
                 width: 80px;
                 }
-    /*  *********************************************FOOTER */
-           /* TITULO REDES SOCIALES */
-    h3{
-        padding: 0;
-        font-size: 15px;
-    }
-    /* LOGO DE INSTAGRAM */
-    .varInstagram {
-                    width: 30px;
-                    height: 30px; 
-    }
-    /* LOGO DE FACEBOOK */
-    .varFacebook {
-                    width: 30px;
-                    height: 30px; 
-    }  
     /************************************************************************ PAGINA QUINES SOMOS*/
             .sec1-quienessomos h2{
                         align-items: end;
-                        font-size: 18px;
+                        font-size: 25px;
     }
     .varLogo{
             width: 70px;
@@ -77,22 +64,22 @@
     }
    /* sector 3 *******************************/
         .sec3-quienessomos p{
-                        font-size: 12px;
-                        line-height: 17px;  
+                        font-size: 18px;
+                        line-height: 20px;  
     }
     .sec3-quienessomos p::first-letter{
-        font-size: 12px;
+        font-size: 25px;
 }
 /* *********************************PAGINA INICIO CONTACTO*/
 .sec1-contacto h2{
-    font-size: 18px;
+    font-size: 25px;
 }    
 /* sector 2 */
 .sec2-contacto{
     padding-left: 30px;
 }
 .sec2-contacto p{
-    font-size: 10px;
+    font-size: 18px;
 }
 .varContactowatt{
     width: 90px;
@@ -103,7 +90,7 @@
     gap: 3px;
 }
 .varAddress{
-    font-size: 15px;
+    font-size: 18px;
 }
 .sec3-mapa{
                 border-width: 1px;
@@ -115,16 +102,17 @@
     gap: 0;
 }   
 .sec1-productos h2{
-    font-size: 18px;
+    font-size: 25px;
     margin: 0;
 }
 /* seccion2 */
 .sec2-productos{
-gap: 10px;
-padding: 6px;
+    gap: 10px;
+    padding: 20px;
+    padding-bottom: 10%;
 }
 .sec2-productos p{
-font-size: 10px;
+font-size: 18px;
 }
 .sec2-productos img{
         width: 150px;
@@ -138,24 +126,39 @@ padding: 0;
 gap: 0;
 }   
 .sec1-fecescpeciales h2{
-font-size: 18px;
+font-size: 25px;
 margin: 0;
 }
 /* seccion2 */
 .sec2-fecescpeciales{
-padding: 6px;
 gap: 10px;
+padding: 20px;
+padding-bottom: 10%;
 }
 .sec2-fecescpeciales h2{
     margin-left: 8px;
     font-size: 20px;
 }
 .sec2-fecescpeciales p{
-font-size: 10px;
+font-size: 18px;
 }
 .sec2-fecescpeciales img{
 width: 150px;
 height: 160px;
 border: solid 2px rgb(64, 218, 230);
 }
+/* ****************************FOOTER*******/
+.redes{
+    font-size: 18px; 
+}
+        /* LOGO DE INSTAGRAM */
+        .varInstagram {
+                        width: 30px;
+                        height: 30px; 
+        }
+        /* LOGO DE FACEBOOK */
+        .varFacebook {
+                        width: 30px;
+                        height: 30px; 
+        }  
 } 

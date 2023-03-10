@@ -38,7 +38,7 @@ background-color: rgb(136, 208, 241);
     font-size: 15px; 
     @include flex-cont;
 }
-.sec2-productos img{
+.prod-img{
     @include productos;
     border :solid 5px rgb(245, 178, 223);
 }

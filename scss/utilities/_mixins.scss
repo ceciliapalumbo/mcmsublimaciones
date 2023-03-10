@@ -51,14 +51,14 @@
 }
 @mixin redes{
     font-family:$tipografia-principal;
-    font-size: 23px;
+    font-size: 25px;
     padding: 20px;
     padding-right: 20px;
 }
 @mixin titulo{
     font-style: italic;
     font-weight: inherit;
-    font-size: 45px; 
+    font-size: 50px; 
     padding: 20px;
 }
 @mixin novedades{
@@ -78,7 +78,7 @@
     font-weight: bolder;
     color: black;
     font-size: 36px;
-    line-height: 50px; 
+    line-height: 60px; 
     flex-wrap: wrap; 
 }
 @mixin circulos{

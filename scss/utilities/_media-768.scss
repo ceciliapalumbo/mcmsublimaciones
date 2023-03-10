@@ -22,6 +22,9 @@
                     font-size: 30px;
                     padding: 50px;
     }
+    .seccion-3 p{
+        font-size: 20px;  
+    }
     .seccion-3 { 
         gap: 50px;
         padding-top: 20px;
@@ -36,22 +39,6 @@
     .varWatt img {
                 width: 100px;
     }
-/* TITULO REDES SOCIALES */
-    h3 {
-        font-size: 20px;
-        padding: 20px;
-        padding-right: 20px;
-    }
-/* LOGO DE INSTAGRAM */
-    .varInstagram {
-                width: 40PX;
-                height: 40PX; 
-    }
-/* LOGO DE FACEBOOK */
-    .varFacebook {
-                width: 40PX;
-                height: 40PX; 
-    }  
 /* *******************************PAGINA INICIO QUINES SOMOS*/
     .sec1-quienessomos{
         justify-content: center;
@@ -87,14 +74,14 @@ padding: 0;
 gap: 0;
 }
 .sec1-contacto h2{
-font-size: 20px;
+font-size: 30px;
 }    
 /* sector 2 */
 .sec2-contacto{
 padding-left: 70px;
 }
 .sec2-contacto p{
-font-size: 15px;
+font-size: 20px;
 }
 .varContactowatt{
 width: 130px;
@@ -119,21 +106,21 @@ padding: 0;
 gap: 0;
 }   
 .sec1-productos h2{
-font-size: 20px;
+font-size: 30px;
 margin: 0;
 }
 /* seccion2 */
     .sec2-productos{
-        padding: 10px;
+        padding-bottom: 8%;
         gap: 20px;
             }
     .sec2-productos p{
         font-size: 13px;
         }
-    .sec2-productos img{
-                        width: 170px;
-                        height: 180px;
-                        border: solid 3px rgb(245, 178, 223);
+    .prod-img{
+                width: 170px;
+                height: 180px;
+                border: solid 3px rgb(245, 178, 223);
     }
 /****************************************************** PAGINA FECHAS ESPECIALES*/
 .sec1-fecescpeciales{
@@ -142,20 +129,35 @@ margin: 0;
     gap: 0;
 }
 .sec1-fecescpeciales h2{
-font-size: 20px;
+font-size: 30px;
 margin: 0;
 }    
 /* seccion2 */
 .sec2-fecescpeciales{
-padding: 10px;
+padding-bottom: 8%;
 gap: 20px;
+
 }
 .sec2-fecescpeciales p{
 font-size: 13px;
 }
-.sec2-fecescpeciales img{
-width: 170px;
-height: 180px;
+.esp-img{
+    width: 170px;
+    height: 180px;
 border: solid 3px rgb(64, 218, 230);
 }
+/* ****************************FOOTER*******/
+.redes{
+    font-size: 21px; 
+}
+/* LOGO DE INSTAGRAM */
+.varInstagram {
+            width: 40px;
+            height: 40px; 
+}
+/* LOGO DE FACEBOOK */
+.varFacebook {
+    width: 40px;
+    height: 40px; 
+}  
 }

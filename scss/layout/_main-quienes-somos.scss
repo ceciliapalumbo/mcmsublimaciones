@@ -24,11 +24,14 @@
 .sec3-quienessomos{
     @extend .sec2-quienessomos;
     gap: 0;
-    padding: 5%;
+
 }
 .sec3-quienessomos p{
     @include medidas;
     @include titulos-secundarios;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 8%;
 }
 .sec3-quienessomos p::first-letter{
     color:$color-texto-principal;
