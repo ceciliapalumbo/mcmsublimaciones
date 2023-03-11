@@ -1,43 +1,52 @@
 /* sector 1 */
 .sec1-contacto{
-    @include medidas;
-    @include flex-left;
+    @include medidas (100%,auto);
+    @include flex(center,left);
+    padding-left: 200px;
     gap: 555px;
     flex-wrap: wrap;
-    @include margin;
+    @include margin (1%,5%);
     }
 /* sector 2 */
 .sec2-contacto{
-    @include medidas;
+    @include medidas (100%,auto);
     display: flex;
     align-items: center;
     padding-left: 150px;
     flex-wrap: wrap;
     margin-top: 5%;
-}
-.sec2-contacto p{
-    @include parrafos;
-    } 
-.varContactowatt{
-    width: 150px;
-    height: 150px;
-}
+    div{
+        a{
+            img{ 
+                @include medidas (150px,150px);
+            } 
+        } 
+    }
+    div{ 
+        p{
+            @include parrafos; 
+        }
+    }     
+}         
 /* sector 3 */
 .sec3-contacto{
-    @include medidas-max;
-    @include flex-wrap;
+    @include medidas-max (100%,auto);
+    @include flex(center,center);
+    flex-wrap: wrap;
     flex-direction: column;
     gap: 10px;
     padding: 3%;
-}
-.varAddress{
-    @include parrafos; 
-    margin-bottom: 8%;
-}
-
-.sec3-mapa{
-    @include medidas-max;
-    border-width: 2px;
-    border: solid rgb(10, 82, 31);
-    margin-bottom: 5%;
+    div{
+        p{
+            @include parrafos; 
+            margin-bottom: 8%; 
+        }
+    }
+    div{
+        img{
+            @include medidas-max (100%,auto);
+            border: solid 2px rgb(10, 82, 31);
+            margin-bottom: 5%; 
+        }
+    }     
 }

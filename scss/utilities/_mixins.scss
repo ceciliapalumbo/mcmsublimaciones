@@ -1,22 +1,24 @@
-@mixin medidas{
-    width: 100%;
-    height: auto;
+@mixin medidas($width, $height){
+    height: $height;
+    width: $width;
 }
-@mixin medidas-max{
-    max-width: 100%;
-    height: auto; 
+@mixin medidas-max($max-width, $height){
+    height: $height;
+    max-width: $max-width;
 }
-@mixin medidas-60{
-    width: 60px;
-    height: 60px; 
+@mixin margin ($margin-top, $margin-bottom){
+    margin-top: $margin-top;
+    margin-bottom: $margin-bottom;
 }
-@mixin medidas-100{
-    width: 100px;
-    height: 100px; 
+@mixin center{
+    justify-content: center;
+    padding: 0;
+    gap: 0;
 }
-@mixin margin{
-    margin-top: 1%;
-    margin-bottom: 5%;
+@mixin flex-colum{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 @mixin flex-center{
     align-items: center;
@@ -27,22 +29,10 @@
     display: flex;
     justify-content: center;
     } 
-@mixin flex{
+@mixin flex ($align-items, $justyfy-content){
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-@mixin flex-left{
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    padding-left: 200px;
-}
-@mixin flex-wrap{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    align-items:$align-items;
+    justify-content:$justyfy-content;
 }
 @mixin grid ($col,$row){
     display: grid;
@@ -61,7 +51,7 @@
     font-size: 50px; 
     padding: 20px;
 }
-@mixin novedades{
+@mixin tit-3{
     font-family: $tipografia-secundaria;
     color: black;
     font-size: 40px;  
@@ -82,15 +72,8 @@
     flex-wrap: wrap; 
 }
 @mixin circulos{
-    height: 400px;
-    width: 400px;
     border-radius: 50%;
     border-style: solid;
     border-color: cornflowerblue;
     border-width: 3px;
-}
-@mixin productos{
-    display: flex;
-    width: 280px;
-    height: 290px;
 }

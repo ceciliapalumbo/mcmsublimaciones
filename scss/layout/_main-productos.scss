@@ -1,16 +1,17 @@
 .sec1-productos{
-    @include medidas;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    @include margin;
+    @include medidas (100%,auto);
+    @include flex(center,left);
+    padding-left: 200px;
+    @include margin (1%,5%);
+    div{
+        h2{
+            margin-left: 200px;
+        }
+    }
 }
-.sec1-productos h2{
-    margin-left: 200px;
-    } 
 /* seccion2 */
 .sec2-productos{
-    @include medidas;
+    @include medidas (100%,auto);
     @include flex-cont;
     flex-wrap: wrap;
     gap: 30px;
@@ -20,7 +21,7 @@
     padding:0;
     margin: 0;
     border: 0;
-    @include flex;
+    @include flex(center,center);
     background :none;
 }    
 .card p{
@@ -39,6 +40,7 @@ background-color: rgb(136, 208, 241);
     @include flex-cont;
 }
 .prod-img{
-    @include productos;
+    @include medidas (280px,290px);
+    display: flex;
     border :solid 5px rgb(245, 178, 223);
 }

@@ -1,7 +1,7 @@
 
 /* BODY */
 .body {  
-    @include medidas;
+    @include medidas (100%,auto);
     background-image: url(../assets/foto/fondo.jpg);
     background-repeat: repeat-x;
     background-size: cover;

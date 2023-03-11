@@ -1,5 +1,5 @@
 .grid-footer{
-    @include medidas;
+    @include medidas (100%,auto);
     background-color: $background-footer;
     @include flex-center;
     @include grid (repeat(3,auto),auto);
@@ -15,11 +15,11 @@
 }  
     /* LOGO DE INSTAGRAM */
     .varInstagram {
-        @include medidas-60;
+        @include medidas (60px,60px);
     }
     /* LOGO DE FACEBOOK */
     .varFacebook {
-        @include medidas-60;
+        @include medidas (60px,60px);
     }
     .redes{
         color: $color-texto-principal;

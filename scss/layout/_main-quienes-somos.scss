@@ -1,38 +1,46 @@
 /***** sector 1 ******/
 .sec1-quienessomos{
-    @include medidas;
-    @include flex-left;
+    @include medidas (100%,auto);
+    @include flex(center, left);
+    padding-left: 200px;
     gap: 492px;
-    @include margin;
+    @include margin (1%,5%);
     } 
 /***** sector 2 ******/
 .sec2-quienessomos{
-    @include medidas;
-    @include flex-wrap;
+    @include medidas (100%,auto);
+    @include flex(center,center);
+    flex-wrap: wrap;
     gap: 6%;
-}
-.textoLogo{
-    @include novedades;
-    color:$color-texto-principal;
- 
-}
-.foto-quienessomos{
-    @include medidas;
-    margin: 0;
-}
+    div{
+        h1{
+            @include tit-3;
+            color:$color-texto-principal; 
+        }
+    }
+    div{
+        img{
+            @include medidas (100%,auto);
+            margin: 0; 
+        }
+    }
+} 
 /******* sector 3****** */
 .sec3-quienessomos{
-    @extend .sec2-quienessomos;
+    @include medidas (100%,auto);
+    @include flex(center,center);
+    flex-wrap: wrap;
     gap: 0;
-
-}
-.sec3-quienessomos p{
-    @include medidas;
-    @include titulos-secundarios;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-bottom: 8%;
-}
+    div{
+        p{
+            @include medidas (100%,auto);
+            @include titulos-secundarios;
+            padding-left: 5%;
+            padding-right: 5%;
+            margin-bottom: 8%;
+        }
+    }
+} 
 .sec3-quienessomos p::first-letter{
     color:$color-texto-principal;
     font-size: 40px;

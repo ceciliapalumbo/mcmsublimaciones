@@ -3,8 +3,7 @@
             font-size: 15px;
     } 
     .imgLogo{
-        width: 80px;
-        height: 80px;
+        @include medidas (80px,80px);
     }
     /* PAGINA INICIO SECCION 1*/
     .seccion-1{
@@ -16,10 +15,6 @@
                     font-size: 30px; 
                     padding-left: 20px;
     } 
-    .seccion-1 .logo {
-                        width: 70px;
-                        height: 70px;
-    }
     /* PAGINA INICIO SECCION-3 */
     .novedades{
         font-size: 23px;
@@ -29,14 +24,11 @@
 font-size: 18px;  
 }
     .seccion-3 { 
-                justify-content: center;
-                align-content: baseline;
-                align-items: center;
+            @include flex-center;
     }
     /* CIRCULO TAZA - REMERA - ALMOHADON */
     .seccion-3 img{
-                height: 200px;
-                width: 200px;
+        @include medidas (70px,70px);
     } 
     /* LOGO DE WATSSAPP */
 
@@ -49,15 +41,12 @@ font-size: 18px;
                         font-size: 20px;
     }
     .varLogo{
-            width: 70px;
-            height: 70px;
+        @include medidas (70px,70px);
     } 
     /* sector 2 */
     .sec2-quienessomos{
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-                        gap: 5%;
+                @include flex-colum;
+                gap: 5%;
     }
     .textoLogo{
                 font-size: 18px;
@@ -82,8 +71,7 @@ font-size: 18px;
     font-size: 18px;
 }
 .varContactowatt{
-    width: 90px;
-    height: 90px;
+    @include medidas (90px,90px);
 }
 /* sector 3 */
 .sec3-contacto{
@@ -93,13 +81,11 @@ font-size: 18px;
     font-size: 18px;
 }
 .sec3-mapa{
-                border-width: 1px;
+            border-width: 1px;
         }
 /************************* PAGINA PRODUCTOS*/
 .sec1-productos{
-    justify-content: center;
-    padding: 0;
-    gap: 0;
+    @include center;
 }   
 .sec1-productos h2{
     font-size: 20px;
@@ -115,15 +101,12 @@ font-size: 18px;
 font-size: 18px;
 }
 .sec2-productos img{
-        width: 150px;
-        height: 160px;
+        @include medidas (150px,160px);
         border: solid 2px rgb(245, 178, 223);
 }
 /************************ PAGINA FECHAS ESPECIALES*/
 .sec1-fecescpeciales{
-justify-content: center;
-padding: 0;
-gap: 0;
+@include center;
 }   
 .sec1-fecescpeciales h2{
 font-size: 20px;
@@ -143,9 +126,8 @@ padding-bottom: 10%;
 font-size: 18px;
 }
 .sec2-fecescpeciales img{
-width: 150px;
-height: 160px;
-border: solid 2px rgb(64, 218, 230);
+    @include medidas (150px,160px);
+    border: solid 2px rgb(64, 218, 230);
 }
 /* ****************************FOOTER*******/
 .redes{
@@ -153,12 +135,10 @@ border: solid 2px rgb(64, 218, 230);
 }
         /* LOGO DE INSTAGRAM */
         .varInstagram {
-                        width: 30px;
-                        height: 30px; 
+            @include medidas (30px,30px);
         }
         /* LOGO DE FACEBOOK */
         .varFacebook {
-                        width: 30px;
-                        height: 30px; 
+            @include medidas (30px,30px);
         }  
 } 

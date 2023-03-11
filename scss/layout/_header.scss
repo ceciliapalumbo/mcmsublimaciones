@@ -1,13 +1,13 @@
 /* PAGINA INICIO BARRA DE NAVEGACION */
 .header{
-    @include medidas;
+    @include medidas (100%, auto);
     background-color: $background-header;
 }
 .dropdown-menu{
     background-color:$background-header;
 }
 .imgLogo{
-    @include medidas-100;
+    @include medidas (100px,100px);
 }
 .navbar-nav a{   
     font-size: 22px;

@@ -11,8 +11,8 @@ font-family: 'Unbounded', cursive;
 */
 /* BODY */
 .body {
-  width: 100%;
   height: auto;
+  width: 100%;
   background-image: url(../assets/foto/fondo.jpg);
   background-repeat: repeat-x;
   background-size: cover;
@@ -31,16 +31,16 @@ font-family: 'Unbounded', cursive;
 
 /* PAGINA INICIO BARRA DE NAVEGACION */
 .header {
-  width: 100%;
   height: auto;
+  width: 100%;
   background-color: #0018EF; }
 
 .dropdown-menu {
   background-color: #0018EF; }
 
 .imgLogo {
-  width: 100px;
-  height: 100px; }
+  height: 100px;
+  width: 100px; }
 
 .navbar-nav a {
   font-size: 22px;
@@ -48,38 +48,35 @@ font-family: 'Unbounded', cursive;
 
 /* PAG INICIO SECCION-1 */
 .seccion-1 {
-  width: 100%;
   height: auto;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5%; }
-
-/* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
-.titulo-regalos h1 {
-  color: #50004C;
-  font-style: italic;
-  font-weight: inherit;
-  font-size: 50px;
-  padding: 20px; }
+  .seccion-1 div h1 {
+    color: #50004C;
+    font-style: italic;
+    font-weight: inherit;
+    font-size: 50px;
+    padding: 20px; }
 
 /* PAGINA INICIO SECCION-2 */
 .seccion-2 {
-  max-width: 100%;
   height: auto;
+  max-width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap; }
-
-.sec2-presentacion img {
-  max-width: 100%;
-  height: auto; }
+  .seccion-2 div img {
+    height: auto;
+    max-width: 100%; }
 
 /* PAGINA INICIO SECCION-3 */
 .seccion-3 {
-  width: 100%;
   height: auto;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -117,8 +114,8 @@ font-family: 'Unbounded', cursive;
 
 /***** sector 1 ******/
 .sec1-quienessomos {
-  width: 100%;
   height: auto;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: left;
@@ -128,43 +125,46 @@ font-family: 'Unbounded', cursive;
   margin-bottom: 5%; }
 
 /***** sector 2 ******/
-.sec2-quienessomos, .sec3-quienessomos {
-  width: 100%;
+.sec2-quienessomos {
   height: auto;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   gap: 6%; }
-
-.textoLogo {
-  font-family: "Nunito Sans", sans-serif;
-  color: black;
-  font-size: 40px;
-  font-weight: bolder;
-  color: #50004C; }
-
-.foto-quienessomos {
-  width: 100%;
-  height: auto;
-  margin: 0; }
+  .sec2-quienessomos div h1 {
+    font-family: "Nunito Sans", sans-serif;
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #50004C; }
+  .sec2-quienessomos div img {
+    height: auto;
+    width: 100%;
+    margin: 0; }
 
 /******* sector 3****** */
 .sec3-quienessomos {
-  gap: 0; }
-
-.sec3-quienessomos p {
-  width: 100%;
   height: auto;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: bolder;
-  color: black;
-  font-size: 36px;
-  line-height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
-  padding-left: 5%;
-  padding-right: 5%;
-  margin-bottom: 8%; }
+  gap: 0; }
+  .sec3-quienessomos div p {
+    height: auto;
+    width: 100%;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bolder;
+    color: black;
+    font-size: 36px;
+    line-height: 60px;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 8%; }
 
 .sec3-quienessomos p::first-letter {
   color: #50004C;
@@ -172,8 +172,8 @@ font-family: 'Unbounded', cursive;
 
 /* sector 1 */
 .sec1-contacto {
-  width: 100%;
   height: auto;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: left;
@@ -185,28 +185,26 @@ font-family: 'Unbounded', cursive;
 
 /* sector 2 */
 .sec2-contacto {
-  width: 100%;
   height: auto;
+  width: 100%;
   display: flex;
   align-items: center;
   padding-left: 150px;
   flex-wrap: wrap;
   margin-top: 5%; }
-
-.sec2-contacto p {
-  font-family: "Nunito Sans", sans-serif;
-  color: black;
-  font-size: 25px;
-  font-weight: bolder; }
-
-.varContactowatt {
-  width: 150px;
-  height: 150px; }
+  .sec2-contacto div a img {
+    height: 150px;
+    width: 150px; }
+  .sec2-contacto div p {
+    font-family: "Nunito Sans", sans-serif;
+    color: black;
+    font-size: 25px;
+    font-weight: bolder; }
 
 /* sector 3 */
 .sec3-contacto {
-  max-width: 100%;
   height: auto;
+  max-width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -214,37 +212,34 @@ font-family: 'Unbounded', cursive;
   flex-direction: column;
   gap: 10px;
   padding: 3%; }
-
-.varAddress {
-  font-family: "Nunito Sans", sans-serif;
-  color: black;
-  font-size: 25px;
-  font-weight: bolder;
-  margin-bottom: 8%; }
-
-.sec3-mapa {
-  max-width: 100%;
-  height: auto;
-  border-width: 2px;
-  border: solid #0a521f;
-  margin-bottom: 5%; }
+  .sec3-contacto div p {
+    font-family: "Nunito Sans", sans-serif;
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 8%; }
+  .sec3-contacto div img {
+    height: auto;
+    max-width: 100%;
+    border: solid 2px #0a521f;
+    margin-bottom: 5%; }
 
 .sec1-productos {
-  width: 100%;
   height: auto;
+  width: 100%;
   display: flex;
-  justify-content: left;
   align-items: center;
+  justify-content: left;
+  padding-left: 200px;
   margin-top: 1%;
   margin-bottom: 5%; }
-
-.sec1-productos h2 {
-  margin-left: 200px; }
+  .sec1-productos div h2 {
+    margin-left: 200px; }
 
 /* seccion2 */
 .sec2-productos {
-  width: 100%;
   height: auto;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -283,14 +278,14 @@ font-family: 'Unbounded', cursive;
   justify-content: center; }
 
 .prod-img {
-  display: flex;
-  width: 280px;
   height: 290px;
+  width: 280px;
+  display: flex;
   border: solid 5px #f5b2df; }
 
 .sec1-fecescpeciales {
-  width: 100%;
   height: auto;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: left;
@@ -301,32 +296,30 @@ font-family: 'Unbounded', cursive;
 
 /* seccion2 */
 .sec2-fecescpeciales {
-  width: 100%;
   height: auto;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
   padding-bottom: 5%; }
-
-.sec2-fecescpeciales p {
-  font-family: "Nunito Sans", sans-serif;
-  color: black;
-  font-size: 25px;
-  font-weight: bolder;
-  font-size: 15px;
-  display: flex;
-  justify-content: center; }
-
-.esp-img {
-  display: flex;
-  width: 280px;
-  height: 290px;
-  border: solid 5px #40dae6; }
+  .sec2-fecescpeciales div img {
+    height: 290px;
+    width: 280px;
+    display: flex;
+    border: solid 5px #40dae6; }
+  .sec2-fecescpeciales div p {
+    font-family: "Nunito Sans", sans-serif;
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    font-size: 15px;
+    display: flex;
+    justify-content: center; }
 
 .grid-footer {
-  width: 100%;
   height: auto;
+  width: 100%;
   background-color: #EDBFB5;
   align-items: center;
   justify-content: center;
@@ -346,13 +339,13 @@ font-family: 'Unbounded', cursive;
 
 /* LOGO DE INSTAGRAM */
 .varInstagram {
-  width: 60px;
-  height: 60px; }
+  height: 60px;
+  width: 60px; }
 
 /* LOGO DE FACEBOOK */
 .varFacebook {
-  width: 60px;
-  height: 60px; }
+  height: 60px;
+  width: 60px; }
 
 .redes {
   color: #50004C;
@@ -386,26 +379,23 @@ font-family: 'Unbounded', cursive;
   .navbar-nav a {
     font-size: 20px; }
   .imgLogo {
-    width: 90px;
-    height: 90px; }
+    height: 90px;
+    width: 90px; }
   /* PAGINA INICIO SECCION 1*/
   .seccion-1 {
     gap: 4%; }
   /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
   .titulo-regalos h1 {
     font-size: 40px; }
-  .seccion-1 .logo {
-    width: 100px;
-    height: 100px; }
   /* PAGINA INICIO SECCION-3 */
+  .seccion-3 {
+    gap: 50px;
+    padding-top: 20px; }
   .novedades {
     font-size: 30px;
     padding: 50px; }
   .seccion-3 p {
     font-size: 20px; }
-  .seccion-3 {
-    gap: 50px;
-    padding-top: 20px; }
   /* CIRCULO TAZA - REMERA - ALMOHADON */
   .seccion-3 img {
     height: 300px;
@@ -422,12 +412,12 @@ font-family: 'Unbounded', cursive;
   .textoLogo {
     font-size: 34px; }
   .varLogo {
-    width: 100px;
-    height: 100px; }
+    height: 100px;
+    width: 100px; }
   .sec1-quienessomos h2 {
     font-size: 25px; }
   /* sector 2 */
-  .sec2-quienessomos, .sec3-quienessomos {
+  .sec2-quienessomos {
     height: auto;
     flex-direction: column;
     align-items: center;
@@ -450,8 +440,8 @@ font-family: 'Unbounded', cursive;
   .sec2-contacto p {
     font-size: 20px; }
   .varContactowatt {
-    width: 130px;
-    height: 130px; }
+    height: 130px;
+    width: 130px; }
   /* sector 3 */
   .sec3-contacto {
     gap: 20px; }
@@ -476,8 +466,8 @@ font-family: 'Unbounded', cursive;
   .sec2-productos p {
     font-size: 13px; }
   .prod-img {
-    width: 170px;
     height: 180px;
+    width: 170px;
     border: solid 3px #f5b2df; }
   /****************************************************** PAGINA FECHAS ESPECIALES*/
   .sec1-fecescpeciales {
@@ -494,20 +484,20 @@ font-family: 'Unbounded', cursive;
   .sec2-fecescpeciales p {
     font-size: 13px; }
   .esp-img {
-    width: 170px;
     height: 180px;
+    width: 170px;
     border: solid 3px #40dae6; }
   /* ****************************FOOTER*******/
   .redes {
     font-size: 21px; }
   /* LOGO DE INSTAGRAM */
   .varInstagram {
-    width: 40px;
-    height: 40px; }
+    height: 40px;
+    width: 40px; }
   /* LOGO DE FACEBOOK */
   .varFacebook {
-    width: 40px;
-    height: 40px; } }
+    height: 40px;
+    width: 40px; } }
 
 @media (max-width: 425px) {
   /* *******************************PAGINA INICIO*****/
@@ -535,8 +525,8 @@ font-family: 'Unbounded', cursive;
   .navbar-nav a {
     font-size: 15px; }
   .imgLogo {
-    width: 80px;
-    height: 80px; }
+    height: 80px;
+    width: 80px; }
   /* PAGINA INICIO SECCION 1*/
   .seccion-1 {
     height: auto;
@@ -545,9 +535,6 @@ font-family: 'Unbounded', cursive;
   .titulo-regalos h1 {
     font-size: 30px;
     padding-left: 20px; }
-  .seccion-1 .logo {
-    width: 70px;
-    height: 70px; }
   /* PAGINA INICIO SECCION-3 */
   .novedades {
     font-size: 23px;
@@ -555,13 +542,13 @@ font-family: 'Unbounded', cursive;
   .seccion-3 p {
     font-size: 18px; }
   .seccion-3 {
+    align-items: center;
     justify-content: center;
-    align-content: baseline;
-    align-items: center; }
+    align-content: center; }
   /* CIRCULO TAZA - REMERA - ALMOHADON */
   .seccion-3 img {
-    height: 200px;
-    width: 200px; }
+    height: 70px;
+    width: 70px; }
   /* LOGO DE WATSSAPP */
   .varWatt img {
     width: 80px; }
@@ -570,10 +557,10 @@ font-family: 'Unbounded', cursive;
     align-items: end;
     font-size: 20px; }
   .varLogo {
-    width: 70px;
-    height: 70px; }
+    height: 70px;
+    width: 70px; }
   /* sector 2 */
-  .sec2-quienessomos, .sec3-quienessomos {
+  .sec2-quienessomos {
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -595,8 +582,8 @@ font-family: 'Unbounded', cursive;
   .sec2-contacto p {
     font-size: 18px; }
   .varContactowatt {
-    width: 90px;
-    height: 90px; }
+    height: 90px;
+    width: 90px; }
   /* sector 3 */
   .sec3-contacto {
     gap: 3px; }
@@ -620,8 +607,8 @@ font-family: 'Unbounded', cursive;
   .sec2-productos p {
     font-size: 18px; }
   .sec2-productos img {
-    width: 150px;
     height: 160px;
+    width: 150px;
     border: solid 2px #f5b2df; }
   /************************ PAGINA FECHAS ESPECIALES*/
   .sec1-fecescpeciales {
@@ -642,17 +629,17 @@ font-family: 'Unbounded', cursive;
   .sec2-fecescpeciales p {
     font-size: 18px; }
   .sec2-fecescpeciales img {
-    width: 150px;
     height: 160px;
+    width: 150px;
     border: solid 2px #40dae6; }
   /* ****************************FOOTER*******/
   .redes {
     font-size: 18px; }
   /* LOGO DE INSTAGRAM */
   .varInstagram {
-    width: 30px;
-    height: 30px; }
+    height: 30px;
+    width: 30px; }
   /* LOGO DE FACEBOOK */
   .varFacebook {
-    width: 30px;
-    height: 30px; } }
+    height: 30px;
+    width: 30px; } }
