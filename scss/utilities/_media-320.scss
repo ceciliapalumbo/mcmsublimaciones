@@ -21,7 +21,7 @@
         padding: 10px;
 }
 .seccion-3 p{
-font-size: 18px;  
+font-size: 15px;  
 }
     .seccion-3 { 
             @include flex-center;
@@ -49,16 +49,20 @@ font-size: 18px;
                 gap: 5%;
     }
     .textoLogo{
-                font-size: 18px;
+                font-size: 15px;
     }
    /* sector 3 *******************************/
-        .sec3-quienessomos p{
-                        font-size: 18px;
-                        line-height: 20px;  
-    }
-    .sec3-quienessomos p::first-letter{
-        font-size: 25px;
-}
+.sec3-quienessomos{
+    div{
+        p{
+            font-size: 15px;
+            line-height: 20px;  
+        }         
+            p::first-letter{
+                font-size: 25px;
+            }
+    } 
+} 
 /* *********************************PAGINA INICIO CONTACTO*/
 .sec1-contacto h2{
     font-size: 20px;
@@ -68,7 +72,7 @@ font-size: 18px;
     padding-left: 30px;
 }
 .sec2-contacto p{
-    font-size: 18px;
+    font-size: 15px;
 }
 .varContactowatt{
     @include medidas (90px,90px);
@@ -78,11 +82,43 @@ font-size: 18px;
     gap: 3px;
 }
 .varAddress{
-    font-size: 18px;
+    font-size: 15px;
 }
 .sec3-mapa{
             border-width: 1px;
         }
+ /* *********************PAGINA INICIO CONTACTO*/
+.sec1-contacto{
+    @include center;
+        div{
+            h2{
+                font-size: 20px;
+            }  
+        }  
+}              
+/* sector 2 */
+.sec2-contacto{
+    div{
+        a{
+            img{ 
+                @include medidas (90px,90px);
+            } 
+        } 
+    }
+    div{ 
+        p{
+            font-size: 15px;
+        }
+    }     
+} 
+  /* sector 3 */
+.sec3-contacto{
+        div{
+            p{
+                font-size: 15px;
+            }    
+        }   
+}
 /************************* PAGINA PRODUCTOS*/
 .sec1-productos{
     @include center;
@@ -90,48 +126,25 @@ font-size: 18px;
 .sec1-productos h2{
     font-size: 20px;
     margin: 0;
-}
+} 
 /* seccion2 */
 .sec2-productos{
     gap: 10px;
     padding: 20px;
     padding-bottom: 10%;
-}
-.sec2-productos p{
-font-size: 18px;
-}
-.sec2-productos img{
-        @include medidas (150px,160px);
-        border: solid 2px rgb(245, 178, 223);
-}
-/************************ PAGINA FECHAS ESPECIALES*/
-.sec1-fecescpeciales{
-@include center;
-}   
-.sec1-fecescpeciales h2{
-font-size: 20px;
-margin: 0;
-}
-/* seccion2 */
-.sec2-fecescpeciales{
-gap: 10px;
-padding: 20px;
-padding-bottom: 10%;
-}
-.sec2-fecescpeciales h2{
-    margin-left: 8px;
-    font-size: 20px;
-}
-.sec2-fecescpeciales p{
-font-size: 18px;
-}
-.sec2-fecescpeciales img{
-    @include medidas (150px,160px);
-    border: solid 2px rgb(64, 218, 230);
-}
+        div{
+            p{
+                font-size: 15px;
+            }
+        }     
+        img{
+            @include medidas (150px,160px);
+                border: 2px;
+        }
+}    
 /* ****************************FOOTER*******/
 .redes{
-    font-size: 18px; 
+    font-size: 15px; 
 }
         /* LOGO DE INSTAGRAM */
         .varInstagram {

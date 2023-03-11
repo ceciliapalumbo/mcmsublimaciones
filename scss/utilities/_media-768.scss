@@ -54,80 +54,78 @@
         gap: 5%;
     }
 /* sector 3 */
-        .sec3-quienessomos p{
-                        font-size: 23px;
-                        line-height: 30px;  
-        }
-/* *****************************************************PAGINA INICIO CONTACTO*/
+.sec3-quienessomos{
+            div{
+                p{
+                    font-size: 23px;
+                    line-height: 30px; 
+                }         
+            }
+}        
+/* *********************PAGINA INICIO CONTACTO*/
 .sec1-contacto{
-@include center;
-}
-    .sec1-contacto h2{
-        font-size: 25px;
-    }    
+        @include center;
+            div{
+                h2{
+                    font-size: 25px;
+                }  
+            }  
+}              
 /* sector 2 */
 .sec2-contacto{
-    padding-left: 70px;
-}
-    .sec2-contacto p{
-        font-size: 20px;
-    }
-    .varContactowatt{
-        @include medidas (130px,130px);
-    }
-/* sector 3 */
-    .sec3-contacto{
+        padding-left: 70px;
+        div{
+            a{
+                img{ 
+                    @include medidas (130px,130px);
+                } 
+            } 
+        }
+        div{ 
+            p{
+                font-size: 20px;
+            }
+        }     
+}   
+.sec3-contacto{
         gap: 20px;
-    }
-        .varAddress{
-            font-size: 20px;
-        }
-        .sec3-mapa{
-            border-width: 2px;
-            margin-bottom: 15%;
-            margin-top: 5%;
-        }
-/* *******************************************************PAGINA PRODUCTOS*/
+            div{
+                p{
+                    font-size: 20px;
+                }
+            }
+            div{
+                img{
+                    border-width: 2px;
+                    margin-bottom: 15%;
+                    margin-top: 5%;
+                }
+            }     
+}
+/* **************************PAGINA PRODUCTOS*/
 .sec1-productos{
     @include center;
-}   
-    .sec1-productos h2{
+    div{
+        h2{
         font-size: 25px;
         margin: 0;
-    }
+        }
+    } 
+}     
 /* seccion2 */
-        .sec2-productos{
+.sec2-productos{
             padding-bottom: 8%;
             gap: 20px;
-        }
-            .sec2-productos p{
-                font-size: 13px;
-        }
-        .prod-img{
+        div{
+            p{
+                font-size: 18px;
+            }
+        }     
+        img{
             @include medidas (170px,180px);
-                border: solid 3px rgb(245, 178, 223);
+                border:3px;
         }
-/****************************************************** PAGINA FECHAS ESPECIALES*/
-.sec1-fecescpeciales{
- @include center;
-}
-.sec1-fecescpeciales h2{
-font-size: 25px;
-margin: 0;
-}    
-/* seccion2 */
-.sec2-fecescpeciales{
-padding-bottom: 8%;
-gap: 20px;
-
-}
-.sec2-fecescpeciales p{
-font-size: 13px;
-}
-.esp-img{
-    @include medidas (170px,180px);
-border: solid 3px rgb(64, 218, 230);
-}
+}         
 /* ****************************FOOTER*******/
 .redes{
     font-size: 21px; 

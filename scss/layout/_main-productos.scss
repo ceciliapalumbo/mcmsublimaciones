@@ -11,31 +11,32 @@
     flex-wrap: wrap;
     gap: 30px;
     padding-bottom: 5%;
+    div{
+        padding:0;
+        margin: 0;
+        border: 0;
+        @include flex(center,center);
+        background :none;
+        img{
+            @include medidas (280px,290px);
+            display: flex;
+            border: solid 5px rgb(64, 218, 230);
+        }
+        p{
+        @include parrafos;
+        font-size: 20px; 
+        @include flex-cont;
+        }
+        a{
+            @include parrafos;
+            font-size: 15px; 
+        }
+            .btn{
+                background-color: rgb(136, 208, 241);
+            }
+                
+    }
 }
-.card{
-    padding:0;
-    margin: 0;
-    border: 0;
-    @include flex(center,center);
-    background :none;
-}    
-.card p{
-margin: 5px;
-}
-.btn{
-background-color: rgb(136, 208, 241);
-}
-.card a{
-    @include parrafos;
-    font-size: 15px; 
-}
-.sec2-productos p{
-    @include parrafos;
-    font-size: 15px; 
-    @include flex-cont;
-}
-.prod-img{
-    @include medidas (280px,290px);
-    display: flex;
-    border :solid 5px rgb(245, 178, 223);
-}
+
+
+
