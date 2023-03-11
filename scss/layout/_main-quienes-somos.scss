@@ -12,36 +12,30 @@
     @include flex(center,center);
     flex-wrap: wrap;
     gap: 6%;
-    div{
-        h1{
+    } 
+    .textoLogo{
             @include tit-3;
             color:$color-texto-principal; 
-        }
     }
-    div{
-        img{
+        .foto-quienessomos{
             @include medidas (100%,auto);
             margin: 0; 
         }
-    }
-} 
 /******* sector 3****** */
 .sec3-quienessomos{
     @include medidas (100%,auto);
     @include flex(center,center);
     flex-wrap: wrap;
     gap: 0;
-    div{
-        p{
+}
+    .sec3-quienessomos p{
             @include medidas (100%,auto);
             @include titulos-secundarios;
             padding-left: 5%;
             padding-right: 5%;
             margin-bottom: 8%;
         }
-    }
-} 
-.sec3-quienessomos p::first-letter{
-    color:$color-texto-principal;
-    font-size: 40px;
-}
+        .sec3-quienessomos p::first-letter{
+            color:$color-texto-principal;
+            font-size: 40px;
+        }

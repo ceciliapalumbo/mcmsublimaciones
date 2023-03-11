@@ -3,24 +3,21 @@
     @include medidas (100%,auto);
     @include flex(center,center);
     gap: 5%;
-    div{
-        h1{
+} 
+.Tit-Regalos{
             color:$color-texto-principal;
             @include titulo;
         } 
-    }       
-} 
 /* PAGINA INICIO SECCION-2 */
 .seccion-2 { 
     @include medidas-max(100%,auto);
     @include flex(center, center);
     flex-wrap: wrap;
-    div{
-        img{
-            @include medidas-max (100%,auto);
-            }
-    } 
 } 
+    .foto-inicio{
+            @include medidas-max (100%,auto);
+    }
+
 /* PAGINA INICIO SECCION-3 */
 .seccion-3 { 
     @include medidas (100%,auto);

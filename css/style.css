@@ -54,12 +54,13 @@ font-family: 'Unbounded', cursive;
   align-items: center;
   justify-content: center;
   gap: 5%; }
-  .seccion-1 div h1 {
-    color: #50004C;
-    font-style: italic;
-    font-weight: inherit;
-    font-size: 50px;
-    padding: 20px; }
+
+.Tit-Regalos {
+  color: #50004C;
+  font-style: italic;
+  font-weight: inherit;
+  font-size: 50px;
+  padding: 20px; }
 
 /* PAGINA INICIO SECCION-2 */
 .seccion-2 {
@@ -69,9 +70,10 @@ font-family: 'Unbounded', cursive;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap; }
-  .seccion-2 div img {
-    height: auto;
-    max-width: 100%; }
+
+.foto-inicio {
+  height: auto;
+  max-width: 100%; }
 
 /* PAGINA INICIO SECCION-3 */
 .seccion-3 {
@@ -133,16 +135,18 @@ font-family: 'Unbounded', cursive;
   justify-content: center;
   flex-wrap: wrap;
   gap: 6%; }
-  .sec2-quienessomos div h1 {
-    font-family: "Nunito Sans", sans-serif;
-    color: black;
-    font-size: 40px;
-    font-weight: bolder;
-    color: #50004C; }
-  .sec2-quienessomos div img {
-    height: auto;
-    width: 100%;
-    margin: 0; }
+
+.textoLogo {
+  font-family: "Nunito Sans", sans-serif;
+  color: black;
+  font-size: 40px;
+  font-weight: bolder;
+  color: #50004C; }
+
+.foto-quienessomos {
+  height: auto;
+  width: 100%;
+  margin: 0; }
 
 /******* sector 3****** */
 .sec3-quienessomos {
@@ -153,18 +157,19 @@ font-family: 'Unbounded', cursive;
   justify-content: center;
   flex-wrap: wrap;
   gap: 0; }
-  .sec3-quienessomos div p {
-    height: auto;
-    width: 100%;
-    font-family: "Nunito Sans", sans-serif;
-    font-weight: bolder;
-    color: black;
-    font-size: 36px;
-    line-height: 60px;
-    flex-wrap: wrap;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-bottom: 8%; }
+
+.sec3-quienessomos p {
+  height: auto;
+  width: 100%;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bolder;
+  color: black;
+  font-size: 36px;
+  line-height: 60px;
+  flex-wrap: wrap;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 8%; }
 
 .sec3-quienessomos p::first-letter {
   color: #50004C;
@@ -233,8 +238,6 @@ font-family: 'Unbounded', cursive;
   padding-left: 200px;
   margin-top: 1%;
   margin-bottom: 5%; }
-  .sec1-productos div h2 {
-    margin-left: 200px; }
 
 /* seccion2 */
 .sec2-productos {
@@ -357,7 +360,7 @@ font-family: 'Unbounded', cursive;
 @media (max-width: 1024px) {
   /* *******************************PAGINA INICIO*****/
   /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
-  .titulo-regalos h1 {
+  .Tit-Regalos {
     font-size: 45px; }
   .novedades {
     font-size: 35px; }
@@ -385,7 +388,7 @@ font-family: 'Unbounded', cursive;
   .seccion-1 {
     gap: 4%; }
   /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
-  .titulo-regalos h1 {
+  .Tit-Regalos {
     font-size: 40px; }
   /* PAGINA INICIO SECCION-3 */
   .seccion-3 {
@@ -504,7 +507,7 @@ font-family: 'Unbounded', cursive;
   .navbar-nav a {
     font-size: 17px; }
   /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
-  .titulo-regalos h1 {
+  .Tit-Regalos {
     font-size: 35px;
     margin-left: 10%; }
   /* PAGINA INICIO SECCION-3 */
@@ -532,7 +535,7 @@ font-family: 'Unbounded', cursive;
     height: auto;
     gap: 3%; }
   /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
-  .titulo-regalos h1 {
+  .Tit-Regalos {
     font-size: 30px;
     padding-left: 20px; }
   /* PAGINA INICIO SECCION-3 */
