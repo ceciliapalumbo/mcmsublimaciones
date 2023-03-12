@@ -10,9 +10,13 @@
         gap: 4%;
     }
 /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
-    .Tit-Regalos{
-            font-size: 40px;  
-    } 
+.seccion-1{
+    div{
+        h1{
+            font-size: 40px;
+        } 
+    }
+} 
 /* PAGINA INICIO SECCION-3 */
 .seccion-3 { 
     gap: 50px;
@@ -115,7 +119,7 @@
 /* seccion2 */
 .sec2-productos{
             padding-bottom: 8%;
-            gap: 20px;
+            gap: 60px;
         div{
             p{
                 font-size: 18px;

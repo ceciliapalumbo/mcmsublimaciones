@@ -55,13 +55,12 @@ font-family: 'Unbounded', cursive;
   align-items: center;
   justify-content: center;
   gap: 5%; }
-
-.Tit-Regalos {
-  color: #50004C;
-  font-style: italic;
-  font-weight: inherit;
-  font-size: 50px;
-  padding: 20px; }
+  .seccion-1 div h1 {
+    color: #50004C;
+    font-style: italic;
+    font-weight: inherit;
+    font-size: 50px;
+    padding: 20px; }
 
 /* PAGINA INICIO SECCION-2 */
 .seccion-2 {
@@ -352,7 +351,7 @@ font-family: 'Unbounded', cursive;
 @media (max-width: 1024px) {
   /* *******************************PAGINA INICIO*****/
   /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
-  .Tit-Regalos {
+  .seccion-1 div h1 {
     font-size: 45px; }
   .novedades {
     font-size: 35px; }
@@ -383,7 +382,7 @@ font-family: 'Unbounded', cursive;
   .seccion-1 {
     gap: 4%; }
   /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
-  .Tit-Regalos {
+  .seccion-1 div h1 {
     font-size: 40px; }
   /* PAGINA INICIO SECCION-3 */
   .seccion-3 {
@@ -459,7 +458,7 @@ font-family: 'Unbounded', cursive;
   /* seccion2 */
   .sec2-productos, .sec2-fecescpeciales {
     padding-bottom: 8%;
-    gap: 20px; }
+    gap: 60px; }
     .sec2-productos div p, .sec2-fecescpeciales div p {
       font-size: 18px; }
     .sec2-productos img, .sec2-fecescpeciales img {
@@ -483,7 +482,7 @@ font-family: 'Unbounded', cursive;
   .navbar-nav a {
     font-size: 17px; }
   /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
-  .Tit-Regalos {
+  .seccion-1 div h1 {
     font-size: 35px;
     margin-left: 10%; }
   /* PAGINA INICIO SECCION-3 */
@@ -502,12 +501,8 @@ font-family: 'Unbounded', cursive;
   .sec3-quienessomos div p::first-letter {
     font-size: 30px; }
   /* *********************PAGINA INICIO CONTACTO*/
-  .sec1-contacto {
-    justify-content: center;
-    padding: 0;
-    gap: 0; }
-    .sec1-contacto div h2 {
-      font-size: 25px; }
+  .sec1-contacto div h2 {
+    font-size: 25px; }
   /* sector 2 */
   .sec2-contacto div a img {
     height: 110px;
@@ -535,9 +530,10 @@ font-family: 'Unbounded', cursive;
     height: auto;
     gap: 3%; }
   /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
-  .Tit-Regalos {
+  .seccion-1 div h1 {
     font-size: 30px;
-    padding-left: 20px; }
+    padding-left: 25px;
+    margin: 0; }
   /* PAGINA INICIO SECCION-3 */
   .novedades {
     font-size: 23px;
@@ -611,17 +607,12 @@ font-family: 'Unbounded', cursive;
   .sec3-contacto div p {
     font-size: 15px; }
   /************************* PAGINA PRODUCTOS*/
-  .sec1-productos, .sec1-fecescpeciales {
-    justify-content: center;
-    padding: 0;
-    gap: 0; }
-  .sec1-productos h2, .sec1-fecescpeciales h2 {
-    font-size: 20px;
-    margin: 0; }
+  .sec1-productos div h2, .sec1-fecescpeciales div h2 {
+    font-size: 20px; }
   /* seccion2 */
   .sec2-productos, .sec2-fecescpeciales {
-    gap: 10px;
-    padding: 20px;
+    gap: 30px;
+    padding: 30px;
     padding-bottom: 10%; }
     .sec2-productos div p, .sec2-fecescpeciales div p {
       font-size: 15px; }
