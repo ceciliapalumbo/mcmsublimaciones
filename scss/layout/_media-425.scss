@@ -36,7 +36,7 @@
                     }
             } 
 }    
-/* *********************PAGINA INICIO CONTACTO*/
+/* ******************PAGINA INICIO CONTACTO*/
 .sec1-contacto{
         div{
             h2{
@@ -58,7 +58,11 @@
             font-size: 18px;
         }
     }     
-}   
+} 
+.varContactowatt:hover{
+    @include medidas (130px,130px);
+} 
+/* sector 3 */
 .sec3-contacto{
     gap: 20px;
     padding-left: 8%;
@@ -69,7 +73,7 @@
             }    
     }
 }     
-/* ****************************FOOTER*******/
+/* ****************FOOTER*******/
 .redes{
     font-size: 19px;  
 }

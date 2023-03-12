@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Comic+Neue&family=Days+One&family=Lilita+One&family=Nunito+Sans:wght@300&family=Unbounded:wght@400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Days+One&family=Lilita+One&family=Unbounded:wght@400;500&display=swap");
-@sec1-productos @sec2-productos;
 * {
   margin: 0;
   padding: 0;
@@ -235,6 +234,10 @@ font-family: 'Unbounded', cursive;
     font-size: 25px;
     font-weight: bolder; }
 
+.varContactowatt:hover {
+  height: 170px;
+  width: 170px; }
+
 /* sector 3 */
 .sec3-contacto {
   height: auto;
@@ -306,6 +309,9 @@ font-family: 'Unbounded', cursive;
       font-size: 15px; }
     .sec2-productos div .btn, .sec2-fecescpeciales div .btn {
       background-color: #88d0f1; }
+    .sec2-productos div .btn:hover, .sec2-fecescpeciales div .btn:hover {
+      background-color: #f5b2df;
+      color: #14146b; }
 
 /* seccion2 */
 .sec2-fecescpeciales img {
@@ -439,6 +445,9 @@ font-family: 'Unbounded', cursive;
       width: 130px; }
     .sec2-contacto div p {
       font-size: 20px; }
+  .varContactowatt:hover {
+    height: 150px;
+    width: 150px; }
   .sec3-contacto {
     gap: 20px; }
     .sec3-contacto div p {
@@ -500,7 +509,7 @@ font-family: 'Unbounded', cursive;
     line-height: 25px; }
   .sec3-quienessomos div p::first-letter {
     font-size: 30px; }
-  /* *********************PAGINA INICIO CONTACTO*/
+  /* ******************PAGINA INICIO CONTACTO*/
   .sec1-contacto div h2 {
     font-size: 25px; }
   /* sector 2 */
@@ -509,13 +518,17 @@ font-family: 'Unbounded', cursive;
     width: 110px; }
   .sec2-contacto div p {
     font-size: 18px; }
+  .varContactowatt:hover {
+    height: 130px;
+    width: 130px; }
+  /* sector 3 */
   .sec3-contacto {
     gap: 20px;
     padding-left: 8%;
     padding-right: 8%; }
     .sec3-contacto div p {
       font-size: 18px; }
-  /* ****************************FOOTER*******/
+  /* ****************FOOTER*******/
   .redes {
     font-size: 19px; } }
 
@@ -551,7 +564,7 @@ font-family: 'Unbounded', cursive;
   /* LOGO DE WATSSAPP */
   .varWatt img {
     width: 80px; }
-  /************************************************************************ PAGINA QUINES SOMOS*/
+  /************************ PAGINA QUINES SOMOS*/
   .sec1-quienessomos h2 {
     align-items: end;
     font-size: 20px; }
@@ -566,23 +579,26 @@ font-family: 'Unbounded', cursive;
     gap: 5%; }
   .textoLogo {
     font-size: 15px; }
-  /* sector 3 *******************************/
+  /* sector 3 ***/
   .sec3-quienessomos div p {
     font-size: 15px;
     line-height: 20px; }
   .sec3-quienessomos div p::first-letter {
     font-size: 25px; }
   /* *********************************PAGINA INICIO CONTACTO*/
-  .sec1-contacto h2 {
+  .sec1-contacto div h2 {
     font-size: 20px; }
   /* sector 2 */
   .sec2-contacto {
     padding-left: 30px; }
-  .sec2-contacto p {
-    font-size: 15px; }
-  .varContactowatt {
-    height: 90px;
-    width: 90px; }
+    .sec2-contacto div a img {
+      height: 90px;
+      width: 90px; }
+    .sec2-contacto div p {
+      font-size: 15px; }
+  .varContactowatt:hover {
+    height: 110px;
+    width: 110px; }
   /* sector 3 */
   .sec3-contacto {
     gap: 3px; }
@@ -590,6 +606,12 @@ font-family: 'Unbounded', cursive;
     font-size: 15px; }
   .sec3-mapa {
     border-width: 1px; }
+  .sec3-contacto {
+    gap: 3px; }
+    .sec3-contacto div p {
+      font-size: 15px; }
+    .sec3-contacto div img {
+      border-width: 1px; }
   /* *********************PAGINA INICIO CONTACTO*/
   .sec1-contacto {
     justify-content: center;

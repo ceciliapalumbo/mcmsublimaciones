@@ -27,7 +27,10 @@
             @include parrafos; 
         }
     }     
-}         
+}  
+.varContactowatt:hover{
+    @include medidas (170px,170px);
+}    
 /* sector 3 */
 .sec3-contacto{
     @include medidas-max (100%,auto);

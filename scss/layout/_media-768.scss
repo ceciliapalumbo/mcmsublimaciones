@@ -90,7 +90,10 @@
                 font-size: 20px;
             }
         }     
-}   
+}  
+.varContactowatt:hover{
+    @include medidas (150px,150px);
+} 
 .sec3-contacto{
         gap: 20px;
             div{

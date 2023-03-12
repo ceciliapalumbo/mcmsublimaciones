@@ -40,7 +40,7 @@ font-size: 15px;
         .varWatt img {
                 width: 80px;
                 }
-    /************************************************************************ PAGINA QUINES SOMOS*/
+    /************************ PAGINA QUINES SOMOS*/
             .sec1-quienessomos h2{
                         align-items: end;
                         font-size: 20px;
@@ -56,7 +56,7 @@ font-size: 15px;
     .textoLogo{
                 font-size: 15px;
     }
-   /* sector 3 *******************************/
+   /* sector 3 ***/
 .sec3-quienessomos{
     div{
         p{
@@ -68,19 +68,33 @@ font-size: 15px;
             }
     } 
 } 
-/* *********************************PAGINA INICIO CONTACTO*/
-.sec1-contacto h2{
-    font-size: 20px;
-}    
+/* *********************************PAGINA INICIO CONTACTO*/ 
+.sec1-contacto{
+    div{
+        h2{
+            font-size: 20px;
+        }  
+    }  
+}   
 /* sector 2 */
+
 .sec2-contacto{
     padding-left: 30px;
-}
-.sec2-contacto p{
-    font-size: 15px;
-}
-.varContactowatt{
-    @include medidas (90px,90px);
+    div{
+        a{
+            img{ 
+                @include medidas (90px,90px);
+            } 
+        } 
+    }
+    div{ 
+        p{
+            font-size: 15px;
+        }
+    }     
+} 
+.varContactowatt:hover{
+    @include medidas (110px,110px);
 }
 /* sector 3 */
 .sec3-contacto{
@@ -92,6 +106,19 @@ font-size: 15px;
 .sec3-mapa{
             border-width: 1px;
         }
+.sec3-contacto{
+        gap: 3px;
+            div{
+                p{
+                    font-size: 15px;
+                }
+                }
+                div{
+                    img{
+                        border-width: 1px;
+                    }
+                }     
+    }
  /* *********************PAGINA INICIO CONTACTO*/
 .sec1-contacto{
     @include center;
