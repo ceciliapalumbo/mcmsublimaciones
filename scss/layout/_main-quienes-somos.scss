@@ -12,10 +12,12 @@
     @include flex(center,center);
     flex-wrap: wrap;
     gap: 6%;
+    padding: 5%;
     } 
     .textoLogo{
             @include tit-3;
-            color:$color-texto-principal; 
+            color:$color-texto-principal;
+            padding-bottom: 4% 
     }
         .foto-quienessomos{
             @include medidas (100%,auto);

@@ -133,14 +133,16 @@ font-family: 'Unbounded', cursive;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 6%; }
+  gap: 6%;
+  padding: 5%; }
 
 .textoLogo {
   font-family: "Nunito Sans", sans-serif;
   color: black;
   font-size: 40px;
   font-weight: bolder;
-  color: #50004C; }
+  color: #50004C;
+  padding-bottom: 4%; }
 
 .foto-quienessomos {
   height: auto;
