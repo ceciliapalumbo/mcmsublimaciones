@@ -381,6 +381,10 @@ font-family: 'Unbounded', cursive;
     font-size: 23px; } }
 
 @media (max-width: 768px) {
+  .body {
+    height: auto;
+    width: 100%;
+    background-image: url(../assets/foto/fondovertical.jpg); }
   .navbar-nav a {
     font-size: 20px; }
   .imgLogo {
