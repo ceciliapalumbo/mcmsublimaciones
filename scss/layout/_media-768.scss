@@ -126,14 +126,14 @@
 }             
 /* **************************PAGINA PRODUCTOS*/
 .sec1-productos{
-    @include center;
+    padding-top: 1%;
+    padding-left: 43%;
     div{
         h2{
-        font-size: 25px;
-        margin: 0;
+            font-size: 38px;
         }
-    } 
-}     
+    }
+}   
 /* seccion2 */
 .sec2-productos{
             padding-bottom: 8%;

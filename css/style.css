@@ -305,7 +305,7 @@ font-family: 'Satisfy', cursive;
       height: 290px;
       width: 280px;
       display: flex;
-      border: solid 5px #40dae6; }
+      border: solid 3px #88d0f1; }
     .sec2-productos div p, .sec2-fecescpeciales div p {
       font-family: "Fira Sans Condensed", sans-serif;
       color: #07003d;
@@ -406,6 +406,11 @@ font-family: 'Satisfy', cursive;
   /* LOGO DE WATSSAPP */
   .varWatt img {
     width: 110px; }
+  /* *******************************PAGINA PRODUCTOS*/
+  .sec1-productos, .sec1-fecescpeciales {
+    padding-top: 2%; }
+    .sec1-productos div h2, .sec1-fecescpeciales div h2 {
+      font-size: 39px; }
   /* ****************************FOOTER*******/
   .redes, .navbar-nav a {
     font-size: 23px; } }
@@ -498,12 +503,10 @@ font-family: 'Satisfy', cursive;
         width: 190px; }
   /* **************************PAGINA PRODUCTOS*/
   .sec1-productos, .sec1-fecescpeciales {
-    justify-content: center;
-    padding: 0;
-    gap: 0; }
+    padding-top: 1%;
+    padding-left: 43%; }
     .sec1-productos div h2, .sec1-fecescpeciales div h2 {
-      font-size: 25px;
-      margin: 0; }
+      font-size: 38px; }
   /* seccion2 */
   .sec2-productos, .sec2-fecescpeciales {
     padding-bottom: 8%;
@@ -582,6 +585,11 @@ font-family: 'Satisfy', cursive;
     .sec3-contacto div .indicaciones-mapa img {
       height: 180px;
       width: 180px; }
+  /* *******************************PAGINA PRODUCTOS*/
+  .sec1-productos, .sec1-fecescpeciales {
+    padding-left: 37%; }
+    .sec1-productos div h2, .sec1-fecescpeciales div h2 {
+      font-size: 36px; }
   /* LOGO DE WATSSAPP */
   .varWatt img {
     width: 90px; }
@@ -664,10 +672,13 @@ font-family: 'Satisfy', cursive;
     .sec3-contacto div .indicaciones-mapa img {
       height: 150px;
       width: 150px; }
-  /************************* PAGINA PRODUCTOS*/
-  .sec1-productos div h2, .sec1-fecescpeciales div h2 {
-    font-size: 20px; }
-  /* seccion2 */
+  /* *******************************PAGINA PRODUCTOS*/
+  .sec1-productos, .sec1-fecescpeciales {
+    padding-left: 34%; }
+    .sec1-productos div h2, .sec1-fecescpeciales div h2 {
+      font-size: 34px; }
+  /*
+/* seccion2 */
   .sec2-productos, .sec2-fecescpeciales {
     gap: 30px;
     padding: 30px;

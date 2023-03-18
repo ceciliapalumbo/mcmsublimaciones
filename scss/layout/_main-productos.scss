@@ -26,7 +26,7 @@
         img{
             @include medidas (280px,290px);
             display: flex;
-            border: solid 5px rgb(64, 218, 230);
+            border: solid 3px rgb(136, 208, 241);
         }
         p{
         @include parrafos;
