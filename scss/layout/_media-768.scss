@@ -38,44 +38,49 @@
             @include medidas (300px,300px);
             border-width: 2px;
         } 
-/* LOGO DE WATSSAPP */
-    .varWatt img {
-                width: 100px;
-    }
 /* *******************************PAGINA INICIO QUINES SOMOS*/
-    .sec1-quienessomos{
+.sec1-quienessomos{
         @include center;
-    } 
-        .textoLogo{
-            font-size: 34px; 
+        padding-top: 1%;
+        div{
+            h1{
+                font-size: 38px;
+            }
         }
-            .varLogo{
-                @include medidas (100px,100px);
-            } 
-                .sec1-quienessomos h2{
-                    font-size: 25px;
-                }
-/* sector 2 */
-    .sec2-quienessomos{
+}  
+/* PAGINA QUIENES SOMOS SECCION-2 */
+.sec2-quienessomos{
         height: auto;
         @include flex-colum;
         gap: 5%;
+    div{
+        h2{
+            font-size: 55px;
+            padding-bottom: 10%; 
+        }
     }
-/* sector 3 */
+    div{
+        img{
+            padding-bottom: 2%;
+        }
+    }
+}     
+/* PAGINA QUIENES SOMOS SECCION-3 */
 .sec3-quienessomos{
             div{
                 p{
                     font-size: 23px;
-                    line-height: 30px; 
+                    line-height: 35px; 
                 }         
             }
 }        
 /* *********************PAGINA INICIO CONTACTO*/
 .sec1-contacto{
         @include center;
+        padding-top: 1%;
             div{
                 h2{
-                    font-size: 25px;
+                    font-size: 38px;
                 }  
             }  
 }              
@@ -91,28 +96,34 @@
         }
         div{ 
             p{
-                font-size: 20px;
+                font-size: 23px;
             }
         }     
 }  
 .varContactowatt:hover{
     @include medidas (150px,150px);
 } 
+/* *****sector 3 *****/
 .sec3-contacto{
         gap: 20px;
             div{
-                p{
-                    font-size: 20px;
+                .varAddress{
+                    font-size: 23px;
+                    margin-bottom: 2%;
                 }
             }
             div{
-                img{
-                    border-width: 2px;
-                    margin-bottom: 15%;
-                    margin-top: 5%;
-                }
-            }     
-}
+                    .indicaciones-mapa{
+                        padding-top: 2%;
+                        p{
+                            font-size: 23px;
+                        }
+                        img{
+                            @include medidas (190px,190px);
+                        }
+                    }     
+            }
+}             
 /* **************************PAGINA PRODUCTOS*/
 .sec1-productos{
     @include center;
@@ -136,7 +147,11 @@
             @include medidas (170px,180px);
                 border:3px;
         }
-}         
+}   
+/* LOGO DE WATSSAPP */
+.varWatt img {
+    width: 100px;
+}      
 /* ****************************FOOTER*******/
 .redes{
     font-size: 21px; 

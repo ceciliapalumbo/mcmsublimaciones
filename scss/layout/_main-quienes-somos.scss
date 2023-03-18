@@ -4,25 +4,37 @@
     @include flex(center, left);
     padding-left: 200px;
     gap: 492px;
-    @include margin (1%,5%);
-    } 
+    @include margin (1%,1%);
+    div{
+        h1{
+          @include titulo;
+          font-size: 40px;
+        }
+    }
+} 
 /***** sector 2 ******/
 .sec2-quienessomos{
     @include medidas (100%,auto);
     @include flex(center,center);
+    align-content: center;
     flex-wrap: wrap;
     gap: 6%;
     padding: 5%;
-    } 
-    .textoLogo{
-            @include tit-3;
-            color:$color-texto-principal;
-            padding-bottom: 4% 
+    div{
+        h2{
+          @include titulo;
+          color:$color-texto-principal;
+          padding-bottom: 10%; 
+          font-size: 60px;
+        }
     }
-        .foto-quienessomos{
+    div{
+        img{
             @include medidas (100%,auto);
             margin: 0; 
         }
+    }  
+}        
 /**
  * ----------------------------------------
  * animation rotate-scale-up

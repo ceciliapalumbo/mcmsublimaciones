@@ -3,7 +3,7 @@
         .navbar-nav a{ 
             font-size: 17px;
     } 
-        /* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
+/* TITULO REGALOS EXCLUSIVOS Y PERSONALIZADOS*/
     .seccion-1{
         div{
             h1{
@@ -17,19 +17,29 @@
             font-size: 27px;
             padding: 10px;
 }
-  /* PAGINA QUIENES SOMOS SECCION-3 */
-.sec3-quienessomos p {
-    font-size: 19px;
-    line-height: 25px;
-}
-.sec3-quienessomos p::first-letter{
-    font-size: 30px;
-}
+/* PAGINA QUIENES SOMOS SECCION-1 */
+.sec1-quienessomos{
+    div{
+        h1{
+            font-size: 36px;
+        }
+    }
+} 
+/* PAGINA QUIENES SOMOS SECCION-2 */
+.sec2-quienessomos{
+    div{
+        h2{
+            font-size: 50px;
+            padding-bottom: 7%; 
+        }
+    }
+}   
+/* PAGINA QUIENES SOMOS SECCION-3 */
 .sec3-quienessomos{
             div{
                 p{
                     font-size: 19px;
-                    line-height: 25px;
+                    line-height: 38px;
                 }         
                     p::first-letter{
                         font-size: 30px;
@@ -40,7 +50,7 @@
 .sec1-contacto{
         div{
             h2{
-                font-size: 25px;
+                font-size: 36px;
             }  
         }  
 }              
@@ -55,7 +65,7 @@
     }
     div{ 
         p{
-            font-size: 18px;
+            font-size: 19px;
         }
     }     
 } 
@@ -64,15 +74,27 @@
 } 
 /* sector 3 */
 .sec3-contacto{
-    gap: 20px;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding: 5%;
+    div{    
+        .varAddress{
+            font-size: 19px;   
+        }
+    } 
         div{
-            p{
-                font-size: 18px;
-            }    
+            .indicaciones-mapa{
+                p{
+                    font-size: 19px;
+                }
+                img{
+                    @include medidas (180px,180px);
+                }
+            }     
     }
-}     
+}   
+/* LOGO DE WATSSAPP */
+.varWatt img {
+    width: 90px;
+}  
 /* ****************FOOTER*******/
 .redes{
     font-size: 19px;  

@@ -10,6 +10,5 @@
     @include medidas (100px,100px);
 }
 .navbar-nav a{   
-    font-size: 22px;
-    color: white;
+   @extend .redes;
 } 

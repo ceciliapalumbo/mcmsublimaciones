@@ -40,23 +40,25 @@ font-size: 15px;
         .varWatt img {
                 width: 80px;
                 }
-    /************************ PAGINA QUINES SOMOS*/
-            .sec1-quienessomos h2{
-                        align-items: end;
-                        font-size: 20px;
-    }
-    .varLogo{
-        @include medidas (70px,70px);
+/********* PAGINA QUIENES SOMOS SECCION-1 */
+    .sec1-quienessomos{
+        div{
+            h1{
+                font-size: 34px;
+            }
+        }
     } 
-    /* sector 2 */
-    .sec2-quienessomos{
-                @include flex-colum;
-                gap: 5%;
-    }
-    .textoLogo{
-                font-size: 15px;
-    }
-   /* sector 3 ***/
+/* PAGINA QUIENES SOMOS SECCION-2 */
+.sec2-quienessomos{
+        @include flex-colum;
+        div{
+            h2{
+                font-size: 45px;
+                padding-left: 8%;
+            }
+        }
+}     
+/* PAGINA QUIENES SOMOS SECCION-3 */
 .sec3-quienessomos{
     div{
         p{
@@ -70,14 +72,14 @@ font-size: 15px;
 } 
 /* *********************************PAGINA INICIO CONTACTO*/ 
 .sec1-contacto{
+    margin-bottom: 0;
     div{
         h2{
-            font-size: 20px;
+            font-size: 34px;
         }  
     }  
 }   
 /* sector 2 */
-
 .sec2-contacto{
     padding-left: 30px;
     div{
@@ -99,58 +101,22 @@ font-size: 15px;
 /* sector 3 */
 .sec3-contacto{
     gap: 3px;
-}
-.varAddress{
-    font-size: 15px;
-}
-.sec3-mapa{
-            border-width: 1px;
+    div{    
+        .varAddress{
+            font-size: 15px;   
         }
-.sec3-contacto{
-        gap: 3px;
-            div{
+    } 
+        div{
+            .indicaciones-mapa{
                 p{
                     font-size: 15px;
                 }
+                img{
+                    @include medidas (150px,150px);
                 }
-                div{
-                    img{
-                        border-width: 1px;
-                    }
-                }     
+            }     
+    }   
     }
- /* *********************PAGINA INICIO CONTACTO*/
-.sec1-contacto{
-    @include center;
-        div{
-            h2{
-                font-size: 20px;
-            }  
-        }  
-}              
-/* sector 2 */
-.sec2-contacto{
-    div{
-        a{
-            img{ 
-                @include medidas (90px,90px);
-            } 
-        } 
-    }
-    div{ 
-        p{
-            font-size: 15px;
-        }
-    }     
-} 
-  /* sector 3 */
-.sec3-contacto{
-        div{
-            p{
-                font-size: 15px;
-            }    
-        }   
-}
 /************************* PAGINA PRODUCTOS*/
 .sec1-productos{
     div{

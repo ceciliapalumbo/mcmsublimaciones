@@ -40,33 +40,24 @@
     grid-template-rows: $row;
 }
 @mixin redes{
-    font-family:$tipografia-principal;
-    font-size: 25px;
+    font-family:'Fira Sans Condensed', sans-serif;
+    font-size: 20px;
     padding: 20px;
     padding-right: 20px;
+    font-weight: bolder;
 }
 @mixin titulo{
-    font-style: italic;
-    font-weight: inherit;
-    font-size: 50px; 
-    padding: 20px;
-}
-@mixin tit-3{
-    font-family: $tipografia-secundaria;
-    color: black;
-    font-size: 40px;  
-    font-weight: bolder;
+    font-family: 'Satisfy', cursive;
+    color: $color-texto-titulos;
 }
 @mixin parrafos{
     font-family: $tipografia-secundaria;
-    color: black;
+    color:$color-texto-secundario;
     font-size: 25px;   
-    font-weight: bolder;
 }
 @mixin titulos-secundarios{
     font-family:$tipografia-secundaria;
-    font-weight: bolder;
-    color: black;
+    color:$color-texto-secundario;
     font-size: 36px;
     line-height: 60px; 
     flex-wrap: wrap; 

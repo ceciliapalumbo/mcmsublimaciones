@@ -3,7 +3,13 @@
     @include flex(center,left);
     padding-left: 200px;
     @include margin (1%,5%);
-}
+    div{
+        h2{
+            @include titulo;
+            font-size: 40px;
+        }
+    }
+    } 
 /* seccion2 */
 .sec2-productos{
     @include medidas (100%,auto);
