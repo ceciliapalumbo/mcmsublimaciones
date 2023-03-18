@@ -538,9 +538,15 @@ font-family: 'Satisfy', cursive;
     font-size: 35px;
     margin-left: 10%; }
   /* PAGINA INICIO SECCION-3 */
+  .seccion-3 {
+    padding-top: 0px; }
   .novedades {
-    font-size: 27px;
-    padding: 10px; }
+    font-size: 29px;
+    padding: 0px;
+    margin-bottom: 0; }
+  .art-inicio {
+    padding-bottom: 0;
+    margin-bottom: 0; }
   /* PAGINA QUIENES SOMOS SECCION-1 */
   .sec1-quienessomos div h1 {
     font-size: 36px; }
