@@ -127,7 +127,8 @@
 /* **************************PAGINA PRODUCTOS*/
 .sec1-productos{
     padding-top: 1%;
-    padding-left: 43%;
+    @include flex(center,center);
+    padding-left: 0;
     div{
         h2{
             font-size: 38px;
